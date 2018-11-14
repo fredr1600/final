@@ -1,20 +1,90 @@
-﻿.overskrift{
+﻿.overskrift1{
+	font-size: 100px;
+	text-align: center;
 	color: white;
 }
 
 .sprakBilde{
-
+	position: fixed;
+	right: 5%;
+	top: 10%;
 }
 
 .bakgrunn1{
-	background-color: black;
+	top: 1000px;
+	display: block;
+	
+	
+	background-color: white;
 
 }
 
 .bakgrunn2{
+	display: block;
+	
 	background-color: white;
 }
 
-body{
+.bakgrunn3{
+	top: ;
+	display: block;
 	
+}
+
+.tekstboks1{
+
+}
+
+.tekstboks2{
+
+}
+
+body{
+	background-color: black;	
+}
+
+
+/*For mobil-enheter */
+@media only screen and(max-width: 414px){
+
+.overskrift1{
+	font-size: 100px;
+	text-align: center;
+	color: white;
+}
+
+.sprakBilde{
+	position: fixed;
+	right: 5%;
+	top: 10%;
+}
+
+.bakgrunn1{
+	top: 1000px;
+	display: block;
+	background-color: white;
+
+}
+
+.bakgrunn2{
+	display: block;	
+	background-color: white;
+}
+
+.bakgrunn3{
+	top: ;
+	display: block;
+	
+}
+
+.tekstboks1{
+
+}
+
+.tekstboks2{
+
+}
+	body{
+		background-color: black;
+	}
 }
