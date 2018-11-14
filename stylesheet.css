@@ -3,9 +3,18 @@
 }
 
 .sprakBilde{
-	
+
+}
+
+.bakgrunn1{
+	background-color: black;
+
+}
+
+.bakgrunn2{
+	background-color: white;
 }
 
 body{
-	background-color: black;
+	
 }
