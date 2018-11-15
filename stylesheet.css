@@ -45,7 +45,7 @@ body{
 
 
 /*For mobil-enheter */
-@media only screen and(max-width: 414px){
+@media only screen and(max-width: 1242px){
 
 .overskrift1{
 	font-size: 100px;
