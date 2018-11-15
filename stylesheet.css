@@ -60,25 +60,26 @@ body{
 }
 
 .bakgrunn1{
-	top: 1000px;
 	display: block;
 	background-color: white;
+	height: 200px;
 
 }
 
 .bakgrunn2{
 	display: block;	
+	height: 100px;
 	background-color: white;
 }
 
 .bakgrunn3{
-	top: ;
+	top:300px;
 	display: block;
 	
 }
 
 .tekstboks1{
-
+	height: 100px;
 }
 
 .tekstboks2{
