@@ -48,6 +48,7 @@
 	color: white;
 	padding: 20% 5% 20% 5%;
 	display: block;
+	margin: 0;
 }
 
 .bakgrunn1{
@@ -60,6 +61,7 @@
 	color: white;
 	padding: 20% 5% 20% 5%;
 	display: block;
+	margin:0;
 }
 
 .bakgrunn2{
@@ -72,6 +74,7 @@
 	color: white;
 	padding: 20% 5% 20% 5%;
 	display: block;
+	margin: 0;
 }
 
 .footer{
@@ -81,10 +84,12 @@
 	background-color: black;
 	padding: 5% 5% 5% 5%;
 	margin: 0% 0% 0% 0%;
+	
 }
 
 body{
-	background-color: white;	
+	background-color: white;
+	margin: 0;	
 }
 
 li{
@@ -129,6 +134,7 @@ li{
 
 .tekstboks1{
 	height: 100px;
+	margin: 0;
 }
 
 .tekstboks2{
