@@ -21,14 +21,19 @@
 
 .sprakBilde{
 	position: absolute;
-	right: 3%;    
-	top: 10%;
+	height: 30px;
+	right: -5%;    
+	top: 9%;
+}
+
+.bildeKnapp{
+	width: 33%;
 }
 
 .knapp{
 	position: absolute;
-	right: 10%;
-	top: 5%;
+	right: 5%;
+	top: 9%;
 }
 
 #btnStyle{
@@ -67,6 +72,9 @@
 	padding: 20% 5% 20% 5%;
 	display: block;
 	margin:0;
+	border-bottom:12px;
+	border-bottom-style:solid; 
+	border-bottom-color:  yellow;
 }
 
 .bakgrunn2{
@@ -80,6 +88,9 @@
 	padding: 20% 5% 20% 5%;
 	display: block;
 	margin: 0;
+	border-bottom:12px;
+	border-bottom-style:solid; 
+	border-bottom-color:  yellow;
 }
 
 .footer{
@@ -102,7 +113,8 @@ li{
 	text-decoration: none;
 }
 p{
-	font
+	font-style: ;
+	font-size: ;
 }
 
 

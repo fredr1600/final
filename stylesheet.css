@@ -20,14 +20,19 @@
 
 .sprakBilde{
 	position: absolute;
-	right: 3%;    
-	top: 10%;
+	height: 30px;
+	right: -5%;    
+	top: 9%;
+}
+
+.bildeKnapp{
+	width: 33%;
 }
 
 .knapp{
 	position: absolute;
-	right: 10%;
-	top: 5%;
+	right: 5%;
+	top: 9%;
 }
 
 #btnStyle{
