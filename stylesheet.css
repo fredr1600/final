@@ -1,4 +1,4 @@
-﻿
+
 
 .overskrift1{
 	font-size: 100px;
@@ -128,15 +128,16 @@ a{
 }
 
 .sprakBilde{
-	position: fixed;
-	right: 15%;    
-	top: 13%;
+	position: absolute;
+	right: 0%;    
+	top: 9%;
+	height: 25px;
 }
 
 .knapp{
-	position: fixed;
-	right: 70%;
-	top: 16%;
+	position: absolute;
+	right: 5%;
+	top: 9%;
 }
 
 #btnStyle{
@@ -195,7 +196,7 @@ a{
 	margin: 0% 0% 0% 0%;
 }
 
-.navbarmeny{
+ul{
 
 	visibility: hidden;
 }
