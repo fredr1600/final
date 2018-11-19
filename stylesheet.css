@@ -1,4 +1,4 @@
-
+﻿
 
 .overskrift1{
 	font-size: 100px;
@@ -9,7 +9,6 @@
 
 .navbar{
 	position: fixed;
-	top: 0px;
 	width: 100%;
 	height: 10%;  
 	display: inline-block;
@@ -33,6 +32,12 @@
 	position: absolute;
 	right: 5%;
 	top: 9%;
+}
+
+.styleKnapp{
+	width: 33%;
+	top: 9%;
+	right: 5%;
 }
 
 #btnStyle{
