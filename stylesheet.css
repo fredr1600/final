@@ -122,15 +122,15 @@ a{
 }
 
 .sprakBilde{
-	position: absolute;
-	right: 5%;    
-	top: 15%;
+	position: fixed;
+	right: 15%;    
+	top: 13%;
 }
 
 .knapp{
-	position: absolute;
-	right: 25%;
-	top: 15%;
+	position: fixed;
+	right: 70%;
+	top: 16%;
 }
 
 #btnStyle{
@@ -187,6 +187,13 @@ a{
 	background-color: black;
 	padding: 5% 5% 5% 5%;
 	margin: 0% 0% 0% 0%;
+}
+
+.navbarmeny{
+
+	visibility: hidden;
+}
+
 	body{
 		background-color: black;
 	}
