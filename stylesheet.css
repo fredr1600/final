@@ -129,14 +129,14 @@ a{
 .sprakBilde{
 	position: absolute;
 	right: 0%;    
-	top: 19%;
+	top: 9%;
 	height: 25px;
 }
 
 .knapp{
-	position: fixed;
-	right: 10%;
-	top: 2%;
+	position: absolute;
+	right: 5%;
+	top: 9%;
 }
 
 #btnStyle{
