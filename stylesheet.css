@@ -8,13 +8,13 @@
 }
 
 .navbar{
-	position: absolute;
+	position: fixed;
 	top: 0px;
 	width: 100%;
 	height: 10%;  
 	display: inline-block;
 	background-color: #2d2d2d;
-	padding: 0% 2% 5%% 0%; 
+	padding: 0% 2% 1% 0%; 
 	text-decoration: none;
 }
 
@@ -97,49 +97,96 @@ li{
 	text-decoration: none;
 }
 
+ol{
+	display: block;
+}
+
+a{
+	text-decoration: none;
+
+}
+
 
 /*For mobil-enheter */
 @media only screen and(max-width: 1242px){
 
-.overskrift1{
-	font-size: 100px;
-	text-align: center;
-	color: white;
+.navbar{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 10%;  
+	display: inline-block;
+	background-color: #2d2d2d;
+	padding: 0% 2% 5% 0%; 
+	text-decoration: none;
 }
 
 .sprakBilde{
 	position: absolute;
-	right: 5%;
+	right: 5%;    
 	top: 10%;
 }
 
-.bakgrunn1{
-	display: block;
-	background-color: white;
-	height: fit-content;
-
+.knapp{
+	position: absolute;
+	right: 10%;
+	top: 5%;
 }
 
-.bakgrunn2{
-	display: block;	
-	height: 100px;
-	background-color: white;
+#btnStyle{
+	height: 65px;
+	width: 100px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: #2d2d2d;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: white;
 }
 
-.bakgrunn3{
-	top:300px;
-	display: block;
-	
-}
 
 .tekstboks1{
-	height: 100px;
+	background-color: black;
+	color: white;
+	padding: 20% 5% 20% 5%;
+	display: block;
 	margin: 0;
 }
 
-.tekstboks2{
+.bakgrunn1{
+	background-color: white;
 
 }
+
+.tekstboks2{
+	background-color: #2d2d2d;
+	color: white;
+	padding: 20% 5% 20% 5%;
+	display: block;
+	margin:0;
+}
+
+.bakgrunn2{
+	background-color: white;
+
+}
+
+.tekstboks3{
+	background-color: #2a3449;
+	color: white;
+	padding: 20% 5% 20% 5%;
+	display: block;
+	margin: 0;
+}
+
+.footer{
+	height: 50%;
+	width: 100%;
+	color: white;
+	background-color: black;
+	padding: 5% 5% 5% 5%;
+	margin: 0% 0% 0% 0%;
 	body{
 		background-color: black;
 	}

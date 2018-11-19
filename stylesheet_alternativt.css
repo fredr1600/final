@@ -1,1 +1,194 @@
 ﻿
+
+.overskrift1{
+	font-size: 100px;
+	text-align: center;
+	color: black;
+	padding: 10% 2% 15% 2%;
+}
+
+.navbar{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 10%;  
+	display: inline-block;
+	background-color: green;
+	padding: 0% 2% 1% 0%; 
+	text-decoration: none;
+}
+
+.sprakBilde{
+	position: absolute;
+	right: 5%;    
+	top: 10%;
+}
+
+.knapp{
+	position: absolute;
+	right: 10%;
+	top: 5%;
+}
+
+#btnStyle{
+	height: 65px;
+	width: 100px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: green;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: white;
+}
+
+
+.tekstboks1{
+	background-color: black;
+	color: white;
+	padding: 20% 5% 20% 5%;
+	display: block;
+	margin: 0;
+}
+
+.bakgrunn1{
+	background-color: white;
+
+}
+
+.tekstboks2{
+	background-color: blue;
+	color: white;
+	padding: 20% 5% 20% 5%;
+	display: block;
+	margin:0;
+}
+
+.bakgrunn2{
+	background-color: white;
+
+}
+
+.tekstboks3{
+	background-color: green;
+	color: white;
+	padding: 20% 5% 20% 5%;
+	display: block;
+	margin: 0;
+}
+
+.footer{
+	height: 50%;
+	width: 100%;
+	color: white;
+	background-color: black;
+	padding: 5% 5% 5% 5%;
+	margin: 0% 0% 0% 0%;
+	
+}
+
+body{
+	background-color: white;
+	margin: 0;	
+}
+
+li{
+	display: inline-block;
+	text-decoration: none;
+}
+
+
+/*For mobil-enheter */
+@media only screen and(max-width: 1242px){
+
+.overskrift1{
+	font-size: 100px;
+	text-align: center;
+	color: white;
+}
+
+.sprakBilde{
+	position: absolute;
+	right: 5%;
+	top: 10%;
+}
+
+.bakgrunn1{
+	display: block;
+	background-color: white;
+	height: fit-content;
+
+}
+
+.bakgrunn2{
+	display: block;	
+	height: 100px;
+	background-color: white;
+}
+
+.bakgrunn3{
+	top:300px;
+	display: block;
+	
+}
+
+.tekstboks1{
+	height: 100px;
+	margin: 0;
+}
+
+.tekstboks2{
+
+}
+	body{
+		background-color: black;
+	}
+}
+
+/*For mobil-enheter */
+@media only screen and(max-width: 1242px){
+
+.overskrift1{
+	font-size: 100px;
+	text-align: center;
+	color: white;
+}
+
+.sprakBilde{
+	position: absolute;
+	right: 5%;
+	top: 10%;
+}
+
+.bakgrunn1{
+	display: block;
+	background-color: white;
+	height: fit-content;
+
+}
+
+.bakgrunn2{
+	display: block;	
+	height: 100px;
+	background-color: white;
+}
+
+.bakgrunn3{
+	top:300px;
+	display: block;
+	
+}
+
+.tekstboks1{
+	height: 100px;
+	margin: 0;
+}
+
+.tekstboks2{
+
+}
+	body{
+		background-color: black;
+	}
+}
+
