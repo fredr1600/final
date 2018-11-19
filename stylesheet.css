@@ -35,6 +35,11 @@
 	top: 9%;
 }
 
+.styleKnapp{
+	height: 65px;
+	width: 33%
+}
+
 #btnStyle{
 	height: 65px;
 	width: 100px;
