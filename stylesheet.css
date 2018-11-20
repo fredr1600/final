@@ -150,22 +150,23 @@ a{
 	position: fixed;
 	top: 0px;
 	width: 100%;
-	height: 10%;  
+	height: 12%;  
 	display: inline-block;
 	background-color: #2d2d2d;
-	padding: 0% 2% 5% 0%; 
+	padding: 0% 0% 0% 0%; 
 	text-decoration: none;
 }
 
 .sprakBilde{
-	position: absolute;
+
+	position: fixed;
 	right: 0%;    
-	top: 9%;
-	height: 25px;
+	top: 9%
+
 }
 
 .knapp{
-	position: absolute;
+	position: fixed;
 	right: 5%;
 	top: 9%;
 }
@@ -228,7 +229,8 @@ a{
 
 ul{
 
-	visibility: hidden;
+	visibility: collapse;
+
 }
 
 	body{
