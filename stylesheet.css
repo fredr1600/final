@@ -84,6 +84,7 @@ td h1{
 	padding: 20% 5% 20% 5%;
 	display: block;
 	margin: 0;
+	font-size: 15px;
 }
 
 .bakgrunn1{
@@ -110,6 +111,10 @@ td h1{
 	padding: 20% 5% 20% 5%;
 	display: block;
 	margin: 0;
+}
+
+.resizable{
+	font-size: 15px;
 }
 
 .footer{
@@ -139,7 +144,22 @@ ol{
 
 a{
 	text-decoration: none;
+}
 
+p{
+	font-size: 15px;
+}
+
+html{
+	font-family: helvetica, sans-serif;
+	max-width: 100%;
+}
+
+span{
+  font-size:25px;
+  float:right;
+  display:block;
+  font-weight:bold;
 }
 
 
