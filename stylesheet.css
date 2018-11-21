@@ -36,7 +36,9 @@ td h1{
 	padding: 10% 2% 15% 2%;
 }
 
-
+nav select {
+  display: none;
+}
 
 
 /*
@@ -123,7 +125,15 @@ a{
 
 
 /*For mobil-enheter */
-@media only screen and(max-width: 1242px){
+@media (max-width: 960px){
+
+nav table{
+	display: none; 
+}
+nav select{
+	display: inline-block; 
+}
+
 
 .navbar{
 	position: fixed;
