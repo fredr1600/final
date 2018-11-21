@@ -1,27 +1,32 @@
 ﻿table{
-
-
 	border-collapse: collapse;
-
 }
 
-td{
-	width: 14%;	
-		padding: 0% 0% 0% 2%;
-}
-
-.nabbar{
+.navbar{
 	background-color: #2d2d2d;
 	position: fixed;
 	width: 100%;
 	height: 10%;
-	top: 0%;
+
+}
+
+td{
+	width: 13%;	
+	padding: 0% 2% 0% 2%;
+}
+
+td a{
+	width: 100%;
 
 }
 
 td h1{
 	text-decoration: none;
 	color: white;
+}
+
+.knapp{
+	width: 60%;
 }
 
 .overskrift1{
@@ -31,40 +36,12 @@ td h1{
 	padding: 10% 2% 15% 2%;
 }
 
-.navbar{
-	position: fixed;
-	width: 100%;
-	height: 10%;  
-	display: inline-block;
-	background-color: #2d2d2d;
-	padding: 0% 2% 1% 0%; 
-	text-decoration: none;
+nav select {
+  display: none;
 }
 
-.sprakBilde{
-	position: absolute;
-	height: 30px;
-	right: -5%;    
-	top: 9%;
-}
 
-.bildeKnapp{
-	width: 60%;
-}
-
-.knapp{
-	position: absolute;
-	right: 5%;
-	top: 9%;
-}
-
-.styleKnapp{
-	padding-bottom: 2%;
-	width: 60%;
-	top: 9%;
-	right: 5%;
-}
-
+/*
 #btnStyle{
 	height: 65px;
 	width: 100px;
@@ -76,7 +53,11 @@ td h1{
 	border-radius: 10px;
 	border-color: white;
 }
+*/
 
+div{
+	margin: 0% 0% 0% 0%;
+}
 
 .tekstboks1{
 	background-color: black;
@@ -164,7 +145,15 @@ span{
 
 
 /*For mobil-enheter */
-@media only screen and(max-width: 1242px){
+@media (max-width: 960px){
+
+nav table{
+	display: none; 
+}
+nav select{
+	display: inline-block; 
+}
+
 
 .navbar{
 	position: fixed;
