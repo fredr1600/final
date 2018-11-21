@@ -109,6 +109,32 @@ p{
 	font-size: ;
 }
 
+.nabbar{
+	background-color: #2d2d2d;
+	position: fixed;
+	width: 100%;
+	height: 10%;
+	top: 0%;
+
+}
+
+td h1{
+	text-decoration: none;
+	color: yellow;
+}
+
+table{
+
+
+	border-collapse: collapse;
+
+}
+
+td{
+	width: 14%;	
+	padding: 0% 0% 0% 2%;
+}
+
 
 /*For mobil-enheter */
 @media only screen and(max-width: 1242px){
