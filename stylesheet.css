@@ -312,6 +312,7 @@ button:hover{
 
 /* Ting til footer */
 
+
 .footer{
 	height: 50%;
 	width: 100%;
@@ -321,7 +322,20 @@ button:hover{
 	margin: 0% 0% 0% 0%;
 }
 
-
+.someFB {
+	width: 20%;
+}
+.someInsta {
+	width: 20%;
+	margin-right: 3%;
+}
+.someLinkedin {
+	width: 20%;
+	margin-right: 4%;
+}
+.someTwitter {
+	width: 20%;
+}
 
 
 
