@@ -36,6 +36,7 @@ nav span {
 td{
 	width: 13%;	
 	padding: 0% 2% 0% 2%;
+
 }
 
 td a{
@@ -57,7 +58,8 @@ td h1{
 
 .knapp{
 	width: 60%;
-	padding: 10%;
+	padding: 10% 0% 10% 20%;
+	float: left;
 }
 
 
@@ -180,9 +182,9 @@ nav span{
 }
 
 .knapp{
-	width: 80%;
+	width: 70%;
 	padding: 7%;
-	margin-left: 3%;	
+	margin-left: 8%;	
 }
 
 .dropdown{
@@ -207,7 +209,7 @@ nav span{
 	margin-top: 6.1%;
 	position: fixed;
 	width: 105%;
-	margin-left: -43.7%;	
+	margin-left: -43%;	
 	z-index: 1;
 	background-color: #2d2d2d;
 	text-align: center;   
