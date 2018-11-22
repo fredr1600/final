@@ -94,9 +94,12 @@ td h1{
 #tekstboks3{
 	background-color: black;
 	color: white;
+}
+.tekstBakgrunn{
 	padding: 20% 5% 30% 5%;
 	display: block;
 	margin: 0;
+	background-color: black;
 }
 
 #tekstboks4{
