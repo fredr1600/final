@@ -1,4 +1,7 @@
 ﻿
-function fontFunction(){
-	document.get.ElementById("tekstboks1").style.fontSize="10px";
+function fontFunctionStor(){
+	document.getElementById("tekstboks1").style.fontSize="23px"
+}
+function fontFunctionReset(){
+	document.getElementById("tekstboks1").style.fontSize="15px"
 }
