@@ -151,6 +151,15 @@ body{
 	background-color: black;
 }
 
+p{
+	font-size: 15px;
+}
+
+html{
+	font-family: helvetica, sans-serif;
+	max-width: 100%;
+}
+
 
 /* Ting til navbar */
 
