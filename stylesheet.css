@@ -67,7 +67,7 @@ td h1{
 	font-size: 1000%;	
 	text-align: center;
 	background-color: white;
-	padding: 20% 5% 20% 5%;
+	padding: 20% 5% 30% 5%;
 	display: block;
 	margin: 0;
 }
@@ -75,24 +75,32 @@ td h1{
 #tekstboks1{
 	background-color: black;
 	color: white;
-	padding: 20% 5% 20% 5%;
+	padding: 20% 5% 30% 5%;
 	display: block;
 	margin: 0;
 	font-size: 15px;
 }
 
 #tekstboks2{
-	background-color: #2d2d2d;
+	background-color: #2a3449;
 	color: white;
-	padding: 20% 5% 20% 5%;
+	padding: 20% 5% 30% 5%;
 	display: block;
 	margin:0;
 }
 
 #tekstboks3{
+	background-color: black;
+	color: white;
+	padding: 20% 5% 30% 5%;
+	display: block;
+	margin: 0;
+}
+
+#tekstboks4{
 	background-color: #2a3449;
 	color: white;
-	padding: 20% 5% 20% 5%;
+	padding: 20% 5% 30% 5%;
 	display: block;
 	margin: 0;
 }
@@ -116,8 +124,8 @@ button:hover{
 	height: 50%;
 	width: 100%;
 	color: white;
-	background-color: black;
-	padding: 5% 0% 5% 0%;
+	background-color: #2d2d2d;
+	padding: 15% 0% 5% 0%;
 	margin: 0% 0% 0% 0%;
 }
 
@@ -228,27 +236,28 @@ nav span{
 #tekstboks1{
 	background-color: black;
 	color: white;
-	padding: 32% 5% 30% 5%;
+	padding: 20% 5% 20% 5%;
 	display: block;
 	margin: 0;
 	font-size: 15px;
 }
 
 #tekstboks2{
-	background-color: #2d2d2d;
+	background-color: #2a3449;
 	color: white;
-	padding: 20% 5% 20% 5%;
+	padding: 20% 5% 40% 5%;
 	display: block;
 	margin:0;
 }
 
 #tekstboks3{
-	background-color: #2a3449;
+	background-color: black;
 	color: white;
 	padding: 20% 5% 20% 5%;
 	display: block;
 	margin: 0;
 }
+
 #tekstboks4{
 	background-color: #2a3449;
 	color: white;
@@ -257,13 +266,25 @@ nav span{
 	margin: 0;
 }
 
+button{
+	height: 50%;
+	border-radius: 10%;
+	border-style: solid;
+	border-color: white;
+	color: black;
+}
+
+button:hover{
+	background-color: lightgrey;
+}
+
 /* Ting til footer */
 
 .footer{
 	height: 50%;
 	width: 100%;
 	color: white;
-	background-color: black;
+	background-color: #2d2d2d;
 	padding: 5% 0% 5% 0%;
 	margin: 0% 0% 0% 0%;
 }
