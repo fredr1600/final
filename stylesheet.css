@@ -249,7 +249,13 @@ nav span{
 	display: block;
 	margin: 0;
 }
-
+#tekstboks4{
+	background-color: #2a3449;
+	color: white;
+	padding: 20% 5% 20% 5%;
+	display: block;
+	margin: 0;
+}
 
 /* Ting til footer */
 
