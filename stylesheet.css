@@ -66,7 +66,9 @@ td h1{
 
 
 /* Ting til innhold */
-
+#tableStor{
+    
+}
 .overskrift{
 	font-size: 1000%;	
 	text-align: center;
@@ -212,9 +214,9 @@ nav span{
 
 .dropbtn{
 	position: fixed;
-	margin-top: -5.8%;
+	margin-top: -3.8%;
 	color: white;
-	width: 23%;	
+	width: 15%;	
 	display: inline;
 }
 
@@ -224,13 +226,13 @@ nav span{
 
 .dropdown-content{
 	display: none;
-	margin-top: 6.1%;
+	margin-top: 3.8%;
 	position: fixed;
 	width: 105%;
-	margin-left: -43%;	
+	margin-left: -4.8%;	
 	z-index: 1;
 	background-color: #2d2d2d;
-	text-align: center;   
+	text-align: left;   
 }
 
 .dropdown-content a{
@@ -257,6 +259,20 @@ nav span{
 	font-size: 1000%;
 	text-align: center;
 	background-color: white;
+	padding: 20% 5% 20% 5%;
+	display: block;
+	margin: 0;
+}
+.right{
+    width: 50%;
+    float: left;
+    
+}
+.left{
+    width: 50%;
+    float: left;
+    background-color: #2a3449;
+	color: white;
 	padding: 20% 5% 20% 5%;
 	display: block;
 	margin: 0;
@@ -290,7 +306,7 @@ nav span{
 #tekstboks4{
 	
 }
-    .tekstboks40{
+.tekstboks40{
     background-color: #2a3449;
 	color: white;
 	padding: 20% 5% 20% 5%;
