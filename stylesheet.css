@@ -187,10 +187,10 @@ nav span{
 
 .dropdown-content{
 	display: none;
-	margin-top: 7.8%;
+	margin-top: 6.1%;
 	position: fixed;
-	width: 101%;
-	margin-left: -38.7%;	
+	width: 105%;
+	margin-left: -43.7%;	
 	z-index: 1;
 	background-color: #2d2d2d;
 	text-align: center;   
