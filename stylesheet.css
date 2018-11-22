@@ -163,9 +163,9 @@ nav span{
 }
 
 .knapp{
-	width: 80%;
+	width: 70%;
 	padding: 7%;
-	margin-left: 3%;	
+	margin-left: 8%;	
 }
 
 .dropdown{
@@ -190,7 +190,7 @@ nav span{
 	margin-top: 6.1%;
 	position: fixed;
 	width: 105%;
-	margin-left: -43.7%;	
+	margin-left: -43%;	
 	z-index: 1;
 	background-color: #2d2d2d;
 	text-align: center;   
