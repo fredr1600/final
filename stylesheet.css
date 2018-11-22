@@ -36,6 +36,7 @@ nav span {
 td{
 	width: 13%;	
 	padding: 0% 2% 0% 2%;
+
 }
 
 td a{
@@ -57,7 +58,8 @@ td h1{
 
 .knapp{
 	width: 60%;
-	padding: 10%;
+	padding: 10% 0% 10% 20%;
+	float: left;
 }
 
 
