@@ -8,6 +8,15 @@
 
 	<script type="text/javascript">
 		
+		function dropdownFunction() {
+  var x = document.getElementById("ddContent");
+ 	
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
 		function fontFunctionStor(){
 			document.getElementById("tekstboks1").style.fontSize="23px"
 		}
@@ -74,17 +83,17 @@
 				<tbody>
 					<tr class="navbar">
 						<td>
-							<a href="index_ss.html"><img class="knapp" src="images/Style_white.png" alt="normal"></a>
+							<a href="index_ss.html"><img class="knapp" src="images/Style_white.png" alt="normal" ></a>
 						</td>
 						<td>
 							<span class="dropdown">
-  								<img class="dropbtn" src="images/Hamburger_white.png" alt="Menu" tabindex="2">
-  								<span class="dropdown-content">
-   								 	<a href="#hjem" tabindex="3">Til Toppen</a>
-    								<a href="#problemet" tabindex="4">Problemet</a>
-    								<a href="#løsningen" tabindex="5">Løsningen</a>
-   									<a href="#appen" tabindex="5">Appen</a>
-    								<a href="#omoss" tabindex="5">Om oss</a>
+  								<img class="dropbtn" src="images/Hamburger_white.png" alt="Menu" tabindex="2" onclick="dropdownFunction()">
+  								<span id="ddContent" class="dropdown-content" >
+   								 	<a href="#hjem" tabindex="3" onclick="dropdownFunction()">Til Toppen</a>
+    								<a href="#problemet" tabindex="4" onclick="dropdownFunction()">Problemet</a>
+    								<a href="#løsningen" tabindex="5" onclick="dropdownFunction()">Løsningen</a>
+   									<a href="#appen" tabindex="5" onclick="dropdownFunction()">Appen</a>
+    								<a href="#omoss" tabindex="5" onclick="dropdownFunction()">Om oss</a>
 								</span>
   							</span>
   						</td>
