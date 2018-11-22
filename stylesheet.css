@@ -45,6 +45,7 @@ td{
 	padding: 0% 2% 0% 2%;
 }
 
+
 td a{
 	width: 100%;
 }
@@ -206,7 +207,6 @@ html{
 a{
 	text-decoration: none;
 	font-family: helvetica, sans-serif;
-	color: white;
 }
 
 /* Ting til navbar */
@@ -230,7 +230,7 @@ nav span{
 .knapp{
 	width: 70%;
 	padding: 7%;
-	margin-left: 8%;	
+	margin-left: 15%;	
 }
 
 .dropdown{
@@ -240,9 +240,10 @@ nav span{
 
 .dropbtn{
 	position: fixed;
-	margin-top: -3.8%;
+	margin-top: -2.9%;
+	margin-left: 2.5%;
 	color: white;
-	width: 14%;	
+	width: 12%;	
 	display: inline;
 }
 
@@ -252,7 +253,7 @@ nav span{
 
 .dropdown-content{
 	display: none;
-	margin-top: 3.8%;
+	margin-top: 3.6%;
 	position: fixed;
 	width: 105%;
 	margin-left: -4.8%;	
