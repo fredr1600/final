@@ -1,48 +1,97 @@
 ﻿
+/* For pc-skjermer */
 
-.overskrift1{
-	font-size: 100px;
-	text-align: center;
-	color: yellow;
+* {
+    box-sizing: border-box;
+}
+body{
 	background-color: black;
-	padding: 10% 2% 15% 2%;
+	margin: 0;	
 }
 
-.navbar{
-	position: fixed;
-	top: 0px;
-	width: 100%;
-	height: 10%;  
-	display: inline-block;
-	background-color: #2d2d2d;
-	padding: 0% 2% 1% 0%; 
+div{
+	margin: 0% 0% 0% 0%;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+a{
 	text-decoration: none;
+	font-family: helvetica, sans-serif;
 }
 
-.sprakBilde{
-	position: absolute;
-	height: 30px;
-	right: -5%;    
-	top: 9%;
+li a{
+	color: yellow;
 }
 
-.bildeKnapp{
-	width: 33%;
+p{
+	font-size: 15px;
+}
+
+html{
+	font-family: helvetica, sans-serif;
+	max-width: 100%;
+}
+
+
+/* Ting til navbar */
+
+nav span {
+  display: none;
+}
+
+td{
+	width: 12.4%;	
+	padding: 0% 2% 0% 2%;
+}
+
+
+td a{
+	width: 100%;
+}
+
+
+td h1{
+	text-decoration: none;
+	color: yellow;
+	text-align: center;
+}
+.navbar{
+	background-color: #2d2d2d;
+	position: fixed;
+	width: 100%;
+	height: auto;
 }
 
 .knapp{
-	position: absolute;
-	right: 5%;
-	top: 9%;
+	width: 80%;
+	padding: 10% 0% 10% 20%;
+	float: left;
 }
 
-.styleKnapp{
-	width: 33%;
-	top: 9%;
-	right: 5%;
+/* Ting til innhold */
+
+.overskrift{
+	font-size: 1000%;	
+	text-align: center;
+	color: yellow;
+	padding: 20% 5% 30% 5%;
+	display: block;
+	margin: 0;
+}
+.right{
+    width: 50%;
+    float: left;
+    
+}
+.left{
+    width: 50%;
+    float: left;
 }
 
-.tekstboks1{
+#tekstboks1{
 	background-color: black;
 	color: yellow;
 	padding: 20% 5% 20% 5%;
@@ -53,12 +102,7 @@
 	border-bottom-color:  yellow;
 }
 
-.bakgrunn1{
-	background-color: black;
-
-}
-
-.tekstboks2{
+#tekstboks2{
 	background-color: black;
 	color: yellow;
 	padding: 20% 5% 20% 5%;
@@ -69,12 +113,7 @@
 	border-bottom-color:  yellow;
 }
 
-.bakgrunn2{
-	background-color: white;
-
-}
-
-.tekstboks3{
+#tekstboks3{
 	background-color: black;
 	color: yellow;
 	padding: 20% 5% 20% 5%;
@@ -85,148 +124,266 @@
 	border-bottom-color:  yellow;
 }
 
+#testboks4{
+	background-color: black;
+	color: yellow;
+	padding: 20% 5% 20% 5%;
+	display: block;
+	margin: 0;
+	border-bottom:12px;
+	border-bottom-style:solid; 
+	border-bottom-color:  yellow;
+}
+
+.tekstBakgrunn{
+	padding: 20% 5% 30% 5%;
+	display: block;
+	margin: 0;
+	background-color: black;
+}
+
+button{
+	height: 50%;
+	border-radius: 10%;
+	border-style: solid;
+	border-color: white;
+	color: black;
+}
+
+button:hover{
+	background-color: lightgrey;
+}
+
+/*Ting til footer*/
+
 .footer{
 	height: 50%;
 	width: 100%;
 	color: yellow;
-	background-color: black;
-	padding: 5% 5% 5% 5%;
+	background-color: #2d2d2d;
+	padding: 15% 0% 5% 0%;
 	margin: 0% 0% 0% 0%;
-	
 }
-
-body{
-	background-color: black;
-	margin: 0;	
+	
+ol{
+	display: block;
+	text-align: center;
 }
 
 li{
 	display: inline-block;
 	text-decoration: none;
 }
-p{
-	font-style: ;
-	font-size: ;
+
+.someFB {
+	width: 20%;
+}
+.someInsta {
+	width: 20%;
+	margin-right: 3%;
+}
+.someLinkedin {
+	width: 20%;
+	margin-right: 4%;
+}
+.someTwitter {
+	width: 20%;
 }
 
-.nabbar{
-	background-color: #2d2d2d;
+
+/*For mobil-enheter */
+
+@media (max-width: 1050px){
+
+
+body{
+	background-color: black;
+}
+
+p{
+	font-size: 15px;
+}
+
+html{
+	font-family: helvetica, sans-serif;
+	max-width: 100%;
+}
+
+a{
+	text-decoration: none;
+	font-family: helvetica, sans-serif;
+}
+
+/* Ting til navbar */
+
+nav div{
+	display: none; 
+}
+
+nav span{
+	display: inline-block; 
+}
+
+.navbar{
+	top: 0%;
+	background-color: black;
 	position: fixed;
 	width: 100%;
-	height: 10%;
-	top: 0%;
-
+	height: auto;
 }
 
-td h1{
+.knapp{
+	width: 70%;
+	padding: 7%;
+	margin-left: 15%;	
+}
+
+.dropdown{
+	width: 100%;
+	padding: 10%;
+}
+
+.dropbtn{
+	position: fixed;
+	margin-top: -2.9%;
+	margin-left: 2.5%;
+	color: yellow;
+	width: 12%;	
+	display: inline;
+}
+
+.dropbtn: hover, .dropbtn:focus{
+	background-color:black;
+}
+
+.dropdown-content{
+	display: none;
+	margin-top: 3.6%;
+	position: fixed;
+	width: 105%;
+	margin-left: -4.8%;	
+	z-index: 1;
+	background-color: black;
+	color:yellow;
+	text-align: left;   
+}
+
+.dropdown-content a{
+	color: yellow;
+	padding: 12px 16px;
 	text-decoration: none;
+	display: block;
+	font-family: Verdana,Geneva,sans-serif;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd ;
 	color: yellow;
 }
 
-table{
-
-
-	border-collapse: collapse;
-
-}
-
-td{
-	width: 14%;	
-	padding: 0% 0% 0% 2%;
-}
-
-
-/*For mobil-enheter */
-@media only screen and(max-width: 1242px){
-
-.overskrift1{
-	font-size: 100px;
-	text-align: center;
-	color: white;
-}
-
-.sprakBilde{
-	position: absolute;
-	right: 5%;
-	top: 10%;
-}
-
-.bakgrunn1{
-	display: block;
-	background-color: white;
-	height: fit-content;
-
-}
-
-.bakgrunn2{
+.dropdown:hover .dropdown-content {	
 	display: block;	
-	height: 100px;
-	background-color: white;
 }
 
-.bakgrunn3{
-	top:300px;
+
+/* Ting til innhold */
+
+.overskrift{
+	font-size: 1000%;
+	text-align: center;
+	background-color: black;
+	color:yellow;
+	padding: 20% 5% 20% 5%;
 	display: block;
-	
-}
-
-.tekstboks1{
-	height: 100px;
 	margin: 0;
 }
 
-.tekstboks2{
-
+.right{
+    width: 50%;
+    float: left;
+    
 }
-	body{
-		background-color: black;
-	}
-}
-
-/*For mobil-enheter */
-@media only screen and(max-width: 1242px){
-
-.overskrift1{
-	font-size: 100px;
-	text-align: center;
-	color: white;
-}
-
-.sprakBilde{
-	position: absolute;
-	right: 5%;
-	top: 10%;
-}
-
-.bakgrunn1{
+.left{
+    width: 50%;
+    float: left;
+    background-color: black;
+	color: yellow;
+	padding: 20% 5% 20% 5%;
 	display: block;
-	background-color: white;
-	height: fit-content;
-
-}
-
-.bakgrunn2{
-	display: block;	
-	height: 100px;
-	background-color: white;
-}
-
-.bakgrunn3{
-	top:300px;
-	display: block;
-	
-}
-
-.tekstboks1{
-	height: 100px;
 	margin: 0;
 }
 
-.tekstboks2{
-
+#tekstboks1{
+	background-color: black;
+	color: yellow;
+	padding: 20% 5% 20% 5%;
+	display: block;
+	margin: 0;
+	font-size: 15px;
 }
-	body{
-		background-color: black;
-	}
+
+#tekstboks2{
+	background-color: black;
+	color: yellow;
+	padding: 20% 5% 40% 5%;
+	display: block;
+	margin:0;
 }
 
+#tekstboks3{
+	background-color: black;
+	color: yellow;
+	padding: 20% 5% 20% 5%;
+	display: block;
+	margin: 0;
+}
+
+#tekstboks4{
+	
+}
+.tekstboks40{
+    background-color: black;
+	color: yellow;
+	padding: 20% 5% 20% 5%;
+	display: block;
+	margin: 0;
+    }
+
+button{
+	height: 50%;
+	border-radius: 10%;
+	border-style: solid;
+	border-color: white;
+	color: black;
+}
+
+button:hover{
+	background-color: lightgrey;
+}
+
+/* Ting til footer */
+
+
+.footer{
+	height: 50%;
+	width: 100%;
+	color: yellow;
+	background-color: black;
+	padding: 5% 0% 5% 0%;
+	margin: 0% 0% 0% 0%;
+}
+
+.someFB {
+	width: 20%;
+}
+.someInsta {
+	width: 20%;
+	margin-right: 3%;
+}
+.someLinkedin {
+	width: 20%;
+	margin-right: 4%;
+}
+.someTwitter {
+	width: 20%;
+}

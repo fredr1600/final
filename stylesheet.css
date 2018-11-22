@@ -1,4 +1,6 @@
-﻿/* For pc-skjermer */
+﻿
+/* For pc-skjermer */
+
 * {
     box-sizing: border-box;
 }
@@ -72,6 +74,7 @@ td h1{
 
 
 /* Ting til innhold */
+
 #tableStor{
     
 }
@@ -188,6 +191,7 @@ li{
 
 
 /*For mobil-enheter */
+
 @media (max-width: 1050px){
 
 
