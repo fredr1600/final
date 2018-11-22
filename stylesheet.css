@@ -180,6 +180,11 @@ html{
 	max-width: 100%;
 }
 
+a{
+	text-decoration: none;
+	font-family: helvetica, sans-serif;
+	color: white;
+}
 
 /* Ting til navbar */
 
