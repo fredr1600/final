@@ -17,6 +17,11 @@ table{
 
 a{
 	text-decoration: none;
+	font-family: helvetica, sans-serif;
+}
+
+li a{
+	color: white;
 }
 
 p{
@@ -159,6 +164,22 @@ ol{
 li{
 	display: inline-block;
 	text-decoration: none;
+}
+
+
+.someFB {
+	width: 20%;
+}
+.someInsta {
+	width: 20%;
+	margin-right: 3%;
+}
+.someLinkedin {
+	width: 20%;
+	margin-right: 4%;
+}
+.someTwitter {
+	width: 20%;
 }
 
 
