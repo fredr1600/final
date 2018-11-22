@@ -98,7 +98,15 @@ td h1{
 }
 
 button{
-	
+	height: 50%;
+	border-radius: 10%;
+	border-style: solid;
+	border-color: white;
+	color: black;
+}
+
+button:hover{
+	background-color: lightgrey;
 }
 
 
@@ -217,7 +225,7 @@ nav span{
 	margin: 0;
 }
 
-.tekstboks1{
+#tekstboks1{
 	background-color: black;
 	color: white;
 	padding: 32% 5% 30% 5%;
@@ -226,7 +234,7 @@ nav span{
 	font-size: 15px;
 }
 
-.tekstboks2{
+#tekstboks2{
 	background-color: #2d2d2d;
 	color: white;
 	padding: 20% 5% 20% 5%;
@@ -234,7 +242,7 @@ nav span{
 	margin:0;
 }
 
-.tekstboks3{
+#tekstboks3{
 	background-color: #2a3449;
 	color: white;
 	padding: 20% 5% 20% 5%;
