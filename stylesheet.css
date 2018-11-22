@@ -18,6 +18,9 @@ table{
 a{
 	text-decoration: none;
 	font-family: helvetica, sans-serif;
+}
+
+li a{
 	color: white;
 }
 
