@@ -112,11 +112,19 @@ td h1{
 
 /* ting til slideshow */
 
-.mineSider {display: none}
-img {vertical-align: middle;}
+.mineSider {
+    display: none;
+    
+}
+
+img {
+    vertical-align: middle;
+    
+}
 
 
 .bildeshow-div {
+    width: 25%;
   max-width: 1000px;
   position: relative;
   margin: auto;
@@ -186,16 +194,13 @@ img {vertical-align: middle;}
 }
 
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
 
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
+
 
 @keyframes fade {
   from {opacity: .4} 
