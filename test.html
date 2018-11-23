@@ -3,27 +3,168 @@
 <head>
 	<title>test</title>
 	<meta charset="utf-8">
+	<style>
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mineSider {display: none}
+img {vertical-align: middle;}
+
+
+.bildeshow-div {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.forrige, .neste {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.neste {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.forrige:hover, .neste:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.nummertxt {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .forrige .neste .text {font-size: 11px}
+}
+</style>
 </head>
 <body>
-	<h2>Dette er ene test for å se sm script fungerer</h2>
-	<p id="fontid">Hei dette er en test</p>
-	
+	<div class="bildeshow-div">
 
-	
+<div class="mineSider fade">
+  <div class="nummertxt">1 / 3</div>
+  <img src="images/App_side1.png" style="width:100%">
+  <div class="text">Appbilde 1</div>
+</div>
 
-	<button type="button" onclick="fontFunction23()">Større</button>
-	<button type="button" onclick="fontFunctionReset()">Reset</button>
+<div class="mineSider fade">
+  <div class="nummertxt">2 / 3</div>
+  <img src="images/polarizationgif.gif" style="width:100%">
+  <div class="text">Appbilde 2</div>
+</div>
 
+<div class="mineSider fade">
+  <div class="nummertxt">3 / 3</div>
+  <img src="images/united-kingdom.png" style="width:100%">
+  <div class="text">Appbilde 3</div>
+</div>
 
+<a class="forrige" onclick="plusSide(-1)">&#10094;</a>
+<a class="neste" onclick="plusSide(1)">&#10095;</a>
 
-	<script>
-		function fontFunction23(){
-			document.getElementById("fontid").style.fontSize="23px"
-		}
-		function fontFunctionReset(){
-			document.getElementById("fontid").style.fontSize="15px"
-		}
-	</script>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSide(1)"></span> 
+  <span class="dot" onclick="currentSide(2)"></span> 
+  <span class="dot" onclick="currentSide(3)"></span> 
+</div>
+
+<script>
+
+var sideIndex = 1;
+visSide(sideIndex);
+
+function plusSide(n) {
+  visSide(sideIndex += n);
+}
+
+function currentSide(n) {
+  visSide(sideIndex = n);
+}
+
+function visSide(n) {
+  var i;
+  var sider = document.getElementsByClassName("mineSider");
+  var dots = document.getElementsByClassName("dot");
+  if (n > sider.length) {sideIndex = 1}    
+  if (n < 1) {sideIndex = sider.length}
+  for (i = 0; i < sider.length; i++) {
+      sider[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  sider[sideIndex-1].style.display = "block";  
+  dots[sideIndex-1].className += " active";
+}
+</script>
 
 </body>
 </html>
