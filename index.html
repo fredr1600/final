@@ -22,22 +22,20 @@
 
         
         function fontFunctionStor(){
-            var y = document.getElementById("tekstboks1");
-            if (y.style.fontSize === "23px"){
-                document.getElementById("tekstboks1").style.fontSize="15px"
-                document.getElementById("tekstboks2").style.fontSize="15px"
-                document.getElementById("tekstboks3").style.fontSize="15px"
-                document.getElementById("tekstboks4").style.fontSize="15px"
+           
+            var y = document.getElementById("skriftS");
+            if(y.style.fontSize == "23px"){
+                document.getElementById("skriftS").style.fontSize="15px";
+            
                 
             }
 			else{
                 
-                document.getElementById("tekstboks1").style.fontSize="23px"
-                document.getElementById("tekstboks2").style.fontSize="23px"
-                document.getElementById("tekstboks3").style.fontSize="23px"
-                document.getElementById("tekstboks4").style.fontSize="23px"
+                document.getElementById("skriftS").style.fontSize="23px";
+                
                 }
 		}
+        
         var i = 0;
         var bilder = [];
         var timer = 3000;
@@ -105,7 +103,7 @@
 							<a href="engelsk.html"><img class="knapp" src="images/EN_white.png" alt="English"></a>
 						</td>
                         <td>
-                        	<img class="knapp" src="images/Text_size_white.png" alt="Text size" onclick="fontFunctionStor()">
+                        	<img class="knapp" src="images/Text_size_white.png" onclick="fontFunctionStor()" alt="Text size" >
                         </td>
 					</tr>
 				</tbody>
@@ -142,37 +140,37 @@
   			</table>
   		</span>	
 	</nav>
-		<table>
-			<tbody>
-				<tr><a name="hjem">
+		
+				<a name="hjem">
 					<h1 class="overskrift">NéA</h1>
-				</a></tr>
+				</a>
 				
-				<tr><a name="problemet">
+				<a name="problemet">
                     <div class="grid-container tekstboks1">
                         <div>
 					       <img src="images/polarizationgif.gif" class="gif" >
+                            
                         </div>
-                        <div>
-                            <h3>
+                        <div >
+                            <h3 id="problemstilling">
                                 <em>
                                     How can we, through technology, limit the polarization of our society? 
                                 </em>
                             </h3>
                             
 						  
-                            <p>
+                            <p id="skriftS">
 						      Western politics have become more polarized in recent years, especially in the United States. This graph shows political polarization in the US which can be seen as a good representation of the division among the people.
-                            <br><br>
-
+                                <br>
+                                <br>
                             The dangers of political polarization includes increased alienation from politics which leads to less political participation and trust in government(Layman, Carsey & Horowitz, 2006). These things can be threatening to our democracy, because a democracy builds on the participation of the people. Polarization leads to increased violence from both the far right and left, which in turn reduces the sense of security in the general public. (http://www.veiligheid-securite.brussels/en/plan/topic-sheets/polarisation-and-radicalisation)
     
                         </p>
                         </div>
                         </div>
-				</a></tr>
+				</a>
 
-				<tr><a name="løsningen">
+				<a name="løsningen">
                     <div class="grid-container tekstboks2">
                         <div>
 					<p>
@@ -188,9 +186,9 @@
                     </div>
                     
                     </div>
-				</a></tr>
+				</a>
 				
-				<tr><a name="appen">
+				<a name="appen">
                     <div class="grid-container tekstboks3">
                         <div> 
 					<p>
@@ -211,12 +209,12 @@
 					</p>
                         </div>
                         <div>
-                        <img name="appBilde" width="200px">
+                        <img name="appBilde" width="200px" class="appBilder">
                     </div>
                     </div>
-				</a></tr>
+				</a>
 
-				<tr><a name="omoss">
+				<a name="omoss">
                     <div class ="grid-container tekstboks4">
                         <div>
 					   <p>
@@ -234,9 +232,9 @@
 						</p>
                         </div>
                         </div>
-				</a></tr>
-			</tbody>
-		</table>
+				</a>
+			
+		
 </body>
 
 <footer>
