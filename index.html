@@ -38,39 +38,39 @@
                 document.getElementById("tekstboks4").style.fontSize="23px"
                 }
 		}
-
-		var sideIndex = 1;
-			visSide(sideIndex);
-
-		function plusSide(n) {
-		  visSide(sideIndex += n);
-            document.getElementsByClassName("mineSider1").style.display="none"
+        var i = 0;
+        var bilder = [];
+        var timer = 3000;
+        bilder[0] = 'images/App_no_1.png';
+        bilder[1] = 'images/App_no_2.png';
+        bilder[2] = 'images/App_no_3.png';
+        
+        function byttBilde(){
+            document.appBilde.src = bilder[i];
             
-		}
+            if(i< bilder.length -1){
+                i++;                
+            }
+            else{
+                i=0;
+            }
+            setTimeout("byttBilde()", timer);
+        }
+        function byttBilde2(){
+            document.appBilde.src = bilder[i];
+            
+            if(i< bilder.length -1){
+                i--;                
+            }
+            else{
+                i=3;
+            }
+            
+        }
+        
+        window.onload = byttBilde;
+        
 
-		function currentSide(n) {
-		  visSide(sideIndex = n);
-		}
-
-		function visSide(n) {
-		  var i;
-		  var sider = document.getElementsByClassName("mineSider");
-		  var dots = document.getElementsByClassName("dot");
-		  if (n > sider.length) {
-              sideIndex = 1
-          }    
-		  if (n < 1) {
-              sideIndex = sider.length
-          }
-		  for (i = 0; i < sider.length; i++) {
-		      sider[i].style.display = "none";  
-		  }
-		  for (i = 0; i < dots.length; i++) {
-		      dots[i].className = dots[i].className.replace(" active", "");
-		  }
-		  sider[sideIndex-1].style.display = "block";  
-		  dots[sideIndex-1].className += " active";
-		}
 
 	</script>
 
@@ -151,15 +151,22 @@
 				<tr><a name="problemet">
                     <div class="grid-container tekstboks1">
                         <div>
-					<p>
-						Problemet: 
-						<br><br>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-					</p>
+					       <img src="images/polarizationgif.gif" class="gif" >
                         </div>
                         <div>
-                        <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.    
+                            <h3>
+                                <em>
+                                    How can we, through technology, limit the polarization of our society? 
+                                </em>
+                            </h3>
+                            
+						  
+                            <p>
+						      Western politics have become more polarized in recent years, especially in the United States. This graph shows political polarization in the US which can be seen as a good representation of the division among the people.
+                            <br><br>
+
+                            The dangers of political polarization includes increased alienation from politics which leads to less political participation and trust in government(Layman, Carsey & Horowitz, 2006). These things can be threatening to our democracy, because a democracy builds on the participation of the people. Polarization leads to increased violence from both the far right and left, which in turn reduces the sense of security in the general public. (http://www.veiligheid-securite.brussels/en/plan/topic-sheets/polarisation-and-radicalisation)
+    
                         </p>
                         </div>
                         </div>
@@ -204,39 +211,8 @@
 					</p>
                         </div>
                         <div>
-                        <div class="bildeshow-div">
-
-							<div class="mineSider fade">
-							  <div class="nummertxt">1 / 3</div>
-							  <img src="images/App_no_1.png" style="width:100%">
-							  <div class="text">Appbilde 1</div>
-							</div>
-
-							<div class="mineSider fade">
-							  <div class="nummertxt">2 / 3</div>
-							  <img src="images/App_no_2.png" style="width:100%">
-							  <div class="text">Appbilde 2</div>
-							</div>
-
-							<div class="mineSider fade">
-							  <div class="nummertxt">3 / 3</div>
-							  <img src="images/App_no_3.png" style="width:100%">
-							  <div class="text">Appbilde 3</div>
-							</div>
-
-							<a class="forrige" onclick="plusSide(-1)">&#10094;</a>
-							<a class="neste" onclick="plusSide(1)">&#10095;</a>
-
-							</div>
-							<br>
-
-							<div style="text-align:center">
-							  <span class="dot" onclick="currentSide(1)"></span> 
-							  <span class="dot" onclick="currentSide(2)"></span> 
-							  <span class="dot" onclick="currentSide(3)"></span> 
-							</div>
-
-                        </div>
+                        <img name="appBilde" width="200px">
+                    </div>
                     </div>
 				</a></tr>
 
