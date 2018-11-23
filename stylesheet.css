@@ -83,15 +83,6 @@ td h1{
 	display: block;
 	margin: 0;
 }
-.right{
-    width: 50%;
-    float: left;
-    
-}
-.left{
-    width: 50%;
-    float: left;
-}
 
 .tekstboks1{
 	background-color: black;
@@ -101,6 +92,7 @@ td h1{
 	margin: 0;
 	font-size: 15px;
 }
+
 
 .tekstboks2{
 	background-color: #2a3449;
@@ -117,6 +109,7 @@ td h1{
 	display: block;
 	margin:0;
 }
+
 
 
 .tekstboks4{
@@ -297,7 +290,6 @@ nav span{
 }
 
     
-	
 
 
 .tekstboks1{
@@ -309,8 +301,10 @@ nav span{
 	font-size: 15px;
 }
 
+
 .tekstboks2{
 	background-color: #2a3449;
+
 	color: white;
 	padding: 20% 5% 40% 5%;
 	display: block;
@@ -326,8 +320,10 @@ nav span{
     
 }
 
+
 .tekstboks4{
 	background-color: #2a3449;
+
 	color: white;
 	padding: 20% 5% 5% 5%;
 	display: block;
