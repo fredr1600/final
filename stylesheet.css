@@ -75,9 +75,6 @@ td h1{
 
 /* Ting til innhold */
 
-#tableStor{
-    
-}
 .overskrift{
 	font-size: 1000%;	
 	text-align: center;
@@ -96,7 +93,7 @@ td h1{
     float: left;
 }
 
-#tekstboks1{
+.tekstboks1{
 	background-color: black;
 	color: white;
 	padding: 20% 5% 30% 5%;
@@ -105,7 +102,7 @@ td h1{
 	font-size: 15px;
 }
 
-#tekstboks2{
+.tekstboks2{
 	background-color: #2a3449;
 	color: white;
 	padding: 20% 5% 30% 5%;
@@ -113,7 +110,7 @@ td h1{
 	margin:0;
 }
 
-#tekstboks3{
+.tekstboks3{
 	background-color: black;
 	color: white;
     padding: 20% 5% 30% 5%;
@@ -122,7 +119,7 @@ td h1{
 }
 
 
-#tekstboks4{
+.tekstboks4{
 	background-color: #2a3449;
 	color: white;
 	padding: 20% 5% 30% 5%;
@@ -134,6 +131,22 @@ td h1{
 	display: block;
 	margin: 0;
 	background-color: black;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 100% 100%;
+    grid-gap: 30px;
+    
+    padding: 10px;
+}
+.grid-container > div {
+   
+    text-align: justify;
+    padding: 20px 20px;
+    font-size: 30px;
+    color: white;
+
 }
 
 
@@ -282,22 +295,12 @@ nav span{
 	display: block;
 	margin: 0;
 }
-.right{
-    width: 50%;
-    float: left;
-    
-}
-.left{
-    width: 50%;
-    float: left;
-    background-color: #2a3449;
-	color: white;
-	padding: 20% 5% 20% 5%;
-	display: block;
-	margin: 0;
-}
 
-#tekstboks1{
+    
+	
+
+
+.tekstboks1{
 	background-color: black;
 	color: white;
 	padding: 20% 5% 20% 5%;
@@ -306,7 +309,7 @@ nav span{
 	font-size: 15px;
 }
 
-#tekstboks2{
+.tekstboks2{
 	background-color: #2a3449;
 	color: white;
 	padding: 20% 5% 40% 5%;
@@ -314,21 +317,30 @@ nav span{
 	margin:0;
 }
 
-#tekstboks3{
+.tekstboks3{
 	background-color: black;
 	color: white;
 	padding: 20% 5% 20% 5%;
 	display: block;
 	margin: 0;
+    
 }
 
-#tekstboks4{
+.tekstboks4{
 	background-color: #2a3449;
 	color: white;
-	padding: 20% 5% 20% 5%;
+	padding: 20% 5% 5% 5%;
 	display: block;
 	margin: 0;
+    
 }
+.grid-container{
+    display: hidden;
+}
+    .centerPic{
+        text-align: center;
+    }
+
 
 /* Ting til footer */
 
