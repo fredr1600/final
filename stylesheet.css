@@ -136,18 +136,6 @@ td h1{
 	background-color: black;
 }
 
-button{
-	height: 50%;
-	border-radius: 10%;
-	border-style: solid;
-	border-color: white;
-	color: black;
-}
-
-button:hover{
-	background-color: lightgrey;
-}
-
 
 /* Ting til footer */
 
@@ -335,26 +323,11 @@ nav span{
 }
 
 #tekstboks4{
-	
-}
-.tekstboks40{
-    background-color: #2a3449;
+	background-color: #2a3449;
 	color: white;
 	padding: 20% 5% 20% 5%;
 	display: block;
 	margin: 0;
-    }
-
-button{
-	height: 50%;
-	border-radius: 10%;
-	border-style: solid;
-	border-color: white;
-	color: black;
-}
-
-button:hover{
-	background-color: lightgrey;
 }
 
 /* Ting til footer */

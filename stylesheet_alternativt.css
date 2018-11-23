@@ -142,18 +142,6 @@ td h1{
 	background-color: black;
 }
 
-button{
-	height: 50%;
-	border-radius: 10%;
-	border-style: solid;
-	border-color: white;
-	color: black;
-}
-
-button:hover{
-	background-color: lightgrey;
-}
-
 /*Ting til footer*/
 
 .footer{
@@ -163,6 +151,10 @@ button:hover{
 	background-color: #2d2d2d;
 	padding: 15% 0% 5% 0%;
 	margin: 0% 0% 0% 0%;
+}
+
+.copyright{
+	color: yellow;
 }
 	
 ol{
@@ -226,7 +218,7 @@ nav span{
 
 .navbar{
 	top: 0%;
-	background-color: black;
+	background-color: #2d2d2d;
 	position: fixed;
 	width: 100%;
 	height: auto;
@@ -263,7 +255,7 @@ nav span{
 	width: 105%;
 	margin-left: -4.8%;	
 	z-index: 1;
-	background-color: black;
+	background-color: #2d2d2d;
 	color:yellow;
 	text-align: left;   
 }
@@ -277,7 +269,7 @@ nav span{
 }
 
 .dropdown-content a:hover {
-	background-color: #ddd ;
+	background-color: black ;
 	color: yellow;
 }
 
@@ -339,26 +331,11 @@ nav span{
 }
 
 #tekstboks4{
-	
-}
-.tekstboks40{
-    background-color: black;
+	 background-color: black;
 	color: yellow;
 	padding: 20% 5% 20% 5%;
 	display: block;
 	margin: 0;
-    }
-
-button{
-	height: 50%;
-	border-radius: 10%;
-	border-style: solid;
-	border-color: white;
-	color: black;
-}
-
-button:hover{
-	background-color: lightgrey;
 }
 
 /* Ting til footer */
@@ -368,7 +345,7 @@ button:hover{
 	height: 50%;
 	width: 100%;
 	color: yellow;
-	background-color: black;
+	background-color: #2d2d2d;
 	padding: 5% 0% 5% 0%;
 	margin: 0% 0% 0% 0%;
 }
