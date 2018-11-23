@@ -38,6 +38,33 @@
                 }
 		}
 
+		var sideIndex = 1;
+			visSide(sideIndex);
+
+		function plusSide(n) {
+		  visSide(sideIndex += n);
+		}
+
+		function currentSide(n) {
+		  visSide(sideIndex = n);
+		}
+
+		function visSide(n) {
+		  var i;
+		  var sider = document.getElementsByClassName("mineSider");
+		  var dots = document.getElementsByClassName("dot");
+		  if (n > sider.length) {sideIndex = 1}    
+		  if (n < 1) {sideIndex = sider.length}
+		  for (i = 0; i < sider.length; i++) {
+		      sider[i].style.display = "none";  
+		  }
+		  for (i = 0; i < dots.length; i++) {
+		      dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  sider[sideIndex-1].style.display = "block";  
+		  dots[sideIndex-1].className += " active";
+		}
+
 	</script>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -170,7 +197,38 @@
 					</p>
                         </div>
                         <div>
-                        <img src="images/App_side1.png" >
+                        <div class="bildeshow-div">
+
+							<div class="mineSider fade">
+							  <div class="nummertxt">1 / 3</div>
+							  <img src="images/App_no_1.png" style="width:100%">
+							  <div class="text">Appbilde 1</div>
+							</div>
+
+							<div class="mineSider fade">
+							  <div class="nummertxt">2 / 3</div>
+							  <img src="images/App_no_2.png" style="width:100%">
+							  <div class="text">Appbilde 2</div>
+							</div>
+
+							<div class="mineSider fade">
+							  <div class="nummertxt">3 / 3</div>
+							  <img src="images/App_no_3.png" style="width:100%">
+							  <div class="text">Appbilde 3</div>
+							</div>
+
+							<a class="forrige" onclick="plusSide(-1)">&#10094;</a>
+							<a class="neste" onclick="plusSide(1)">&#10095;</a>
+
+							</div>
+							<br>
+
+							<div style="text-align:center">
+							  <span class="dot" onclick="currentSide(1)"></span> 
+							  <span class="dot" onclick="currentSide(2)"></span> 
+							  <span class="dot" onclick="currentSide(3)"></span> 
+							</div>
+
                         </div>
                     </div>
 				</a></tr>
