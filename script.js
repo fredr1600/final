@@ -56,10 +56,8 @@ function dropdownFunction() {
             }
             
         }
-        
-        
-        
-                function noJs(){
+
+        function noJs(){
             document.getElementById("noJsBilde1").style.display="none";
             document.getElementById("noJsBilde2").style.display="none";            
             document.getElementById("noJsBilde3").style.display="none";
@@ -72,9 +70,15 @@ function dropdownFunction() {
 
 
         }
-            function startUp(){
-                noJs();
-                byttBilde();
-            }
+
+        function startUp(){
+            noJs();
+            byttBilde();
+        }
+
         window.onload = startUp;
+
+
+
+
         
