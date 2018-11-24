@@ -25,7 +25,7 @@
            
             var y = document.getElementById("skriftS");
             if(y.style.fontSize == "23px"){
-                document.getElementById("skriftS").style.fontSize="15px";
+                document.getElementById("skriftS").style.fontSize="17px";
             
                 
             }
@@ -45,7 +45,7 @@
         
         function byttBilde(){
             document.appBilde.src = bilder[i];
-            
+            document.getElementById("jsAppBilde").style.display="block";
             if(i< bilder.length -1){
                 i++;                
             }
@@ -67,9 +67,19 @@
             
         }
         
-        window.onload = byttBilde;
         
+        
+                function noJs(){
+            document.getElementById("noJsBilde1").style.display="none";
+            document.getElementById("noJsBilde2").style.display="none";            
+            document.getElementById("noJsBilde3").style.display="none";               
 
+        }
+            function startUp(){
+                noJs();
+                byttBilde();
+            }
+        window.onload = startUp;
 
 	</script>
 
@@ -149,19 +159,18 @@
 				<a name="problemet">
                     <div class="grid-container tekstboks1">
                         <div>
-					       <img src="images/polarizationgif.gif" class="gif" alt="The polarization of the american public between 1994-2014">
-                            
-                        </div>
-                        <div >
                             <h3 id="problemstilling">
                                 <em>
                                     How can we, through technology, limit the polarization of our society? 
                                 </em>
                             </h3>
                             
-						  
+						  <img src="images/polarizationgif.gif" class="gif" alt="The polarization of the american public between 1994-2014">
+					       
+                        </div>
+                        <div >
                             <p id="skriftS">
-						     Det er trygt å si at det er nesten umulig å bli helt kvitt polariseringen av samfunnet vårt.(Å bli kvitt problemet med politisk polarisering er meget utfordrende, og det vil ta flere år) Vi er for mange mennesker i verden til å forvente at alle skal ha samme mening.  Uten å gå inn i ytterligere detaljer, er det mange teorier om hva det er som skiller oss så mye (Layman et al., 2006). Det er sammenhengen mellom nyheter og politisk polarisering som vi ønsket å gjøre noe med. 
+						     Det er trygt å si at det er nesten umulig å bli helt kvitt polariseringen av samfunnet vårt.(Å bli kvitt problemet med politisk polarisering er meget utfordrende, og det vil ta flere år) Vi er for mange mennesker i verden til å forvente at alle skal ha samme mening.  Uten å gå inn i ytterligere detaljer, er det mange teorier om hva det er som skiller oss så mye (Layman et al., 2006). Det er sammenhengen mellom nyheter og politisk polarisering som vi ønsket å gjøre noe med.
 						     <br><br>
 
 							Ifølge The Digital News Report of 2018 (Layman et al., 2006) er over halvparten av verdens befolkning opptatt av at nyhetene de leser er falske. 51% sier at de stoler på nyheten de søker seg, og bare 23% stoler på nyhetene de kommer over i sosiale medier. Land med polariserte politiske situasjoner og høy bruk av sosiale medier skiller seg ut. I Spania så mange som 69% er bekymret for den falske nyhetssituasjonen, og ikke langt bak finner vi USA med 64%. Det er med andre ord en klar sammenheng mellom politisk polarisering og polarisering i nyhetene. La oss ta det aller høyeste nyhetsområdet Breitbart som et eksempel. Responders i Reuters-undersøkelsen vurdert Breitbart til den minst pålitelige nyhetskilden med en poengsum på 3,69 av 10. Samtidig, blant folk som bruker Breitbart regelmessig, er poengsummen 6,96.
@@ -171,6 +180,11 @@
 
     
                         </p>
+                            
+                            
+                           
+                             
+                            
                         </div>
                         </div>
 				</a>
@@ -219,9 +233,15 @@
 						Du kan også kombinere kategorier slik at du bare får opp en type nyheter innenfor en tidsramme du selv bestemmer. 
 						Man kan også sortere nyheter etter region, land og språk. 	
 					</p>
+                            
                         </div>
                         <div>
-                        <img name="appBilde" width="200px" class="appBilder" alt="Appen NeA">
+                        <img name="appBilde" width="200px" class="appBilder" alt="Appen NeA" id="jsAppBilde">
+                            <div class="noJsBilder">
+                            <img src="images/App_no_1.png" id="noJsBilde1" width="150px" >
+                            <img src="images/App_no_2.png" id="noJsBilde2" width="150px" >
+                            <img src="images/App_no_3.png" id="noJsBilde3" width="150px" >
+                            </div>
                     </div>
                     </div>
 				</a>
