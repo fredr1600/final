@@ -66,6 +66,10 @@ function dropdownFunction() {
             
             document.getElementById("storKnapp1").style.display="none";
             document.getElementById("storKnapp2").style.display="none";
+            
+            document.getElementById("storKnappJs1").style.display="block";
+            document.getElementById("storKnappJs2").style.display="block";
+
 
         }
             function startUp(){
