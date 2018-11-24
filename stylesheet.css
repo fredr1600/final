@@ -71,7 +71,18 @@ td h1{
 	padding: 10% 0% 10% 20%;
 	float: left;
 }
-
+#storKnapp1{
+    
+}
+#storKnapp2{
+    
+}
+#storKnappJs1{
+    display: none;
+}
+#storKnappJs2{
+    display: none;
+}
 
 /* Ting til innhold */
 
@@ -105,7 +116,7 @@ td h1{
 }
 
 .tekstboks3{
-    height: 950px;
+    
 	background-color: black;
 	color: white;
     padding: 20% 5% 30% 5%;
@@ -113,7 +124,7 @@ td h1{
 	margin:0;
 }
 .tekstboks4{
-    height: 950px;
+    
 	background-color: #2a3449;
 	color: white;
 	padding: 20% 5% 30% 5%;
@@ -228,8 +239,8 @@ td h1{
     display: none;
 }
 .noJsBilder{
-    
-    margin: auto;
+    margin-top: 30px;
+    text-align: center;
 }
 #noJsBilde1{
     
