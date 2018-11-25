@@ -4,6 +4,14 @@
 * {
     box-sizing: border-box;
 }
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 body{
 	background-color: white;
 	margin: 0;	
@@ -281,60 +289,66 @@ td h1{
 .grid-containerFooter{
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: 100%;
+    grid-template-rows: 100%; 
     grid-gap: 20px;
     
-    padding-top: 10%;
-    padding-bottom: 10%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
 }
 
 .grid-containerFooter > div{
     text-align: center;
-    padding: 20px 20px;
+    
     font-size: 30px;
     color: white;
 }
 
 .footer{
-	height: 50%;
+	
 	width: 100%;
 	color: white;
 	background-color: #2d2d2d;
+    margin-bottom: 0;
 	
 }
 
-ol{
+ul{
 	display: block;
 	text-align: center;
+    padding-left: 0;
 }
 
 li{
 	display: inline-block;
 	text-decoration: none;
+    font-size: 17px;
 }
 
 .someKnapper{
-    width: auto;   
+    padding-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .someFB {
-	width: 20%;
+	width: 34px;
 }
 
 .someInsta {
-	width: 20%;
-	margin-right: 3%;
+	width: 34px;
+	
 }
 
 .someLinkedin {
-	width: 20%;
-	margin-right: 4%;
+	width: 34px;
+	
 }
 
 .someTwitter {
-	width: 20%;
+	width: 34px;
 }
 
 
@@ -511,11 +525,12 @@ nav span{
 /* Ting til footer */
 
 .grid-containerFooter{
-        display: hidden;
+    display: block;
 }
 
+
 .footer{
-	height: 50%;
+	
 	width: 100%;
 	color: white;
 	background-color: #2d2d2d;
@@ -523,24 +538,29 @@ nav span{
 	margin: 0% 0% 0% 0%;
 }
 
+.someKnapper{
+    padding-top: 10px;
+    
+}
+    
 .someFB {
-	width: 20%;
+	width: 34px;
 }
 
 .someInsta {
-	width: 20%;
-	margin-right: 3%;
+	width: 34px;
+	
 }
 
 .someLinkedin {
-	width: 20%;
-	margin-right: 4%;
+	width: 34px;
+	
 }
 
 .someTwitter {
-	width: 20%;
+	width: 34px;
 }
-
+}
 
 
 
