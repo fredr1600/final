@@ -16,12 +16,19 @@ function dropdownFunction() {
             var y = document.getElementById("skriftS");
             if(y.style.fontSize == "23px"){
                 document.getElementById("skriftS").style.fontSize="17px";
-            
+                document.getElementById("skriftS2").style.fontSize="17px";
+                document.getElementById("skriftS3").style.fontSize="17px";
+                document.getElementById("skriftS4").style.fontSize="17px";
+
                 
             }
 			else{
                 
                 document.getElementById("skriftS").style.fontSize="23px";
+                document.getElementById("skriftS2").style.fontSize="23px";
+                document.getElementById("skriftS3").style.fontSize="23px";
+                document.getElementById("skriftS4").style.fontSize="23px";
+
                 
                 }
 		}
