@@ -100,11 +100,14 @@ td h1{
 	font-size: 1000%;	
 	text-align: center;
 	background-color: white;
-	padding: 20% 5% 30% 5%;
+	padding: 0% 5% 30% 5%;
 	display: block;
 	margin: 0;
 }
-
+.lastNedKnapper{
+    width: 50%;
+    
+}
 .tekstboks1{
 	background-color: black;
 	color: white;
