@@ -36,6 +36,7 @@ li a{
 
 p{
 	font-size: 17px;
+    line-height: 1.5;
 }
 
 html{
@@ -78,6 +79,7 @@ td h1{
 	float: left;
 }
 
+}
 #storKnapp1{
 }
 
@@ -113,7 +115,7 @@ td h1{
 
 .tekstboks2{
     
-	background-color: #2a3449;
+	background-color: #444d5b;
 	color: white;
 	padding: 20% 5% 30% 5%;
 	display: block;
@@ -131,11 +133,14 @@ td h1{
 
 .tekstboks4{
     
-	background-color: #2a3449;
+	background-color: #444d5b;
 	color: white;
 	padding: 20% 5% 30% 5%;
 	display: block;
 	margin: 0;
+}
+.appenBilde{
+    width: 100%;
 }
 
 .grid-container {
@@ -167,10 +172,40 @@ td h1{
     margin-top: 35.1px;
     border-radius: 10px;
 }
+.gifDiv{
+    margin: auto;
+}
+.appBilder{
+    margin: auto;
+    display: block;
+   
+}
+.appDiv{
+    margin: auto;
+}
+.someDiv{
+    margin: auto;
+}
+.listeDiv{
+    margin: auto;
+}
 
 #skriftS{
     font-size: 17px;
-    padding-top: 10%
+    padding-top: 6%;
+}
+#skriftS2{
+    font-size: 17px;
+}
+#skriftS3{
+    font-size: 17px;
+}
+#skriftS4{
+    font-size: 17px;
+}
+#skriftS5{
+    font-size: 17px;
+    
 }
 
 #problemstilling{
@@ -440,6 +475,7 @@ nav span{
 	text-decoration: none;
 	display: block;
 	font-family: Verdana,Geneva,sans-serif;
+    margin-left: 5.5%;
 }
 
 .dropdown-content a:hover {
@@ -477,7 +513,7 @@ nav span{
 
 
 .tekstboks2{
-	background-color: #2a3449;
+	background-color: #444d5b;
 	color: white;
 	padding: 20% 5% 40% 5%;
 	display: block;
@@ -494,7 +530,7 @@ nav span{
 
 
 .tekstboks4{
-	background-color: #2a3449;
+	background-color: #444d5b;
 	color: white;
 	padding: 20% 5% 5% 5%;
 	display: block;
