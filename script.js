@@ -28,7 +28,7 @@ function dropdownFunction() {
         
         var i = 0;
         var bilder = [];
-        var timer = 3000;
+        var timer = 5000;
         bilder[0] = 'images/App_no_1.png';
         bilder[1] = 'images/App_no_2.png';
         bilder[2] = 'images/App_no_3.png';

@@ -47,11 +47,9 @@ td{
 	padding: 0% 2% 0% 2%;
 }
 
-
 td a{
 	width: 100%;
 }
-
 
 td h1{
 	text-decoration: none;
@@ -71,15 +69,17 @@ td h1{
 	padding: 10% 0% 10% 20%;
 	float: left;
 }
+
 #storKnapp1{
-    
 }
-#storKnapp2{
-    
+
+#storKnapp2{   
 }
+
 #storKnappJs1{
     display: none;
 }
+
 #storKnappJs2{
     display: none;
 }
@@ -96,14 +96,11 @@ td h1{
 }
 
 .tekstboks1{
-    
-    
 	background-color: black;
 	color: white;
 	padding: 20% 5% 30% 5%;
 	display: block;
 	margin: 0;
-	
 }
 
 .tekstboks2{
@@ -123,6 +120,7 @@ td h1{
 	display: block;
 	margin:0;
 }
+
 .tekstboks4{
     
 	background-color: #2a3449;
@@ -143,14 +141,15 @@ td h1{
     padding-left: 10%;
     padding-right: 10%;
 }
+
 .grid-container > div {
    
     text-align: left;
     padding: 20px 20px;
     font-size: 30px;
     color: white;
-
 }
+
 .gif{
     width: 70%;
     display: block;
@@ -159,16 +158,18 @@ td h1{
     margin-right: auto;
     margin-top: 35.1px;
     border-radius: 10px;
-    
+}
+
+#skriftS{
+    font-size: 17px;
+    padding-top: 10%
 }
 
 #problemstilling{
     text-align: left;
 }
-#skriftS{
-    font-size: 17px;
-    padding-top: 10%
-}
+
+
 /* ting til slideshow */
 .forrige, .neste {
   cursor: pointer;
@@ -184,6 +185,7 @@ td h1{
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
+
 .neste {
   right: 0;
   border-radius: 3px 0 0 3px;
@@ -192,6 +194,7 @@ td h1{
 .forrige:hover, .neste:hover {
   background-color: rgba(0,0,0,0.8);
 }
+
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -201,6 +204,7 @@ td h1{
   width: 100%;
   text-align: center;
 }
+
 .nummertxt {
   color: #f2f2f2;
   font-size: 12px;
@@ -208,6 +212,7 @@ td h1{
   position: absolute;
   top: 0;
 }
+
 .dot {
   cursor: pointer;
   height: 15px;
@@ -218,38 +223,48 @@ td h1{
   display: inline-block;
   transition: background-color 0.6s ease;
 }
+
 .active .dot:hover {
   background-color: #717171;
 }
+
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
+
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
 }
+
+
+
 /* On smaller screens, decrease text size */
+
 @media only screen and (max-width: 300px) {
-  .forrige .neste .text {font-size: 11px}
+
+.forrige .neste .text {font-size: 11px}
 }
+
 #jsAppBilde{
     display: none;
 }
+
 .noJsBilder{
     margin-top: 30px;
     text-align: center;
 }
-#noJsBilde1{
-    
+
+#noJsBilde1{  
 }
-#noJsBilde2{
-    
+
+#noJsBilde2{  
 }
-#noJsBilde3{
-    
+
+#noJsBilde3{ 
 }
 
 .tekstBakgrunn{
@@ -263,13 +278,31 @@ td h1{
 
 /* Ting til footer */
 
+.grid-containerFooter{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100%;
+    grid-gap: 20px;
+    
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.grid-containerFooter > div{
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 30px;
+    color: white;
+}
+
 .footer{
 	height: 50%;
 	width: 100%;
 	color: white;
 	background-color: #2d2d2d;
-	padding: 15% 0% 5% 0%;
-	margin: 0% 0% 0% 0%;
+	
 }
 
 ol{
@@ -282,18 +315,24 @@ li{
 	text-decoration: none;
 }
 
+.someKnapper{
+    width: auto;   
+}
 
 .someFB {
 	width: 20%;
 }
+
 .someInsta {
 	width: 20%;
 	margin-right: 3%;
 }
+
 .someLinkedin {
 	width: 20%;
 	margin-right: 4%;
 }
+
 .someTwitter {
 	width: 20%;
 }
@@ -372,7 +411,7 @@ nav span{
 
 .dropdown-content{
 	display: none;
-	margin-top: 3.6%;
+	margin-top: 3.3%;
 	position: fixed;
 	width: 105%;
 	margin-left: -4.8%;	
@@ -425,7 +464,6 @@ nav span{
 
 .tekstboks2{
 	background-color: #2a3449;
-
 	color: white;
 	padding: 20% 5% 40% 5%;
 	display: block;
@@ -438,22 +476,21 @@ nav span{
 	padding: 20% 5% 20% 5%;
 	display: block;
 	margin: 0;
-    
 }
 
 
 .tekstboks4{
 	background-color: #2a3449;
-
 	color: white;
 	padding: 20% 5% 5% 5%;
 	display: block;
-	margin: 0;
-    
+	margin: 0; 
 }
+
 .grid-container{
     display: hidden;
 }
+
 .gif{
     width: 250px;
     display: block;
@@ -462,8 +499,8 @@ nav span{
     margin-right: auto;
     margin-top: 35.1px;
     border-radius: 10px;
-    
 }
+
 .appBilder{
     display: block;
     margin-right: auto;
@@ -473,6 +510,9 @@ nav span{
 
 /* Ting til footer */
 
+.grid-containerFooter{
+        display: hidden;
+}
 
 .footer{
 	height: 50%;
@@ -486,14 +526,17 @@ nav span{
 .someFB {
 	width: 20%;
 }
+
 .someInsta {
 	width: 20%;
 	margin-right: 3%;
 }
+
 .someLinkedin {
 	width: 20%;
 	margin-right: 4%;
 }
+
 .someTwitter {
 	width: 20%;
 }
