@@ -71,8 +71,11 @@ function dropdownFunction() {
         bilder2[2] = 'images/App_eng_3.png';
         
         function byttBilde2(){
+
             document.appBilde2.src = bilder2[n];
+            
             document.getElementById("jsAppBilde2").style.display="block";
+            
             if(n< bilder2.length -1){
                 n++;                
             }
