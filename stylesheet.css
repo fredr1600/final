@@ -437,7 +437,7 @@ li{
 	font-size: 700%;
 	text-align: center;
 	background-color: white;
-	padding: 15% 5% 20% 5%;
+	padding: 10% 5% 15% 5%;
 	display: block;
 	margin: auto;   
 }
@@ -450,7 +450,7 @@ li{
 .tekstboks1{
 	background-color: black;
 	color: white;
-	padding: 20% 5% 20% 5%;
+	padding: 10% 5% 15% 5%;
 	display: block;
 	margin: 0;
 	font-size: 15px;
@@ -460,7 +460,7 @@ li{
 .tekstboks2{
 	background-color: #444d5b;
 	color: white;
-	padding: 20% 5% 40% 5%;
+	padding: 10% 5% 15% 5%;
 	display: block;
 	margin:0;
 }
@@ -468,7 +468,7 @@ li{
 .tekstboks3{
 	background-color: black;
 	color: white;
-	padding: 20% 5% 20% 5%;
+	padding: 10% 5% 15% 5%;
 	display: block;
 	margin: 0;
 }
@@ -477,7 +477,7 @@ li{
 .tekstboks4{
 	background-color: #444d5b;
 	color: white;
-	padding: 20% 5% 5% 5%;
+	padding: 10% 5% 15% 5%;
 	display: block;
 	margin: 0; 
 }
