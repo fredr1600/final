@@ -234,7 +234,9 @@ td h1{
 #jsAppBilde2{
 	display: none;
 }
-
+#noShow{
+    display= none;
+}
 .noJsBilder{
     margin-top: 30px;
     text-align: center;
