@@ -19,6 +19,11 @@ function dropdownFunction() {
                 document.getElementById("skriftS2").style.fontSize="17px";
                 document.getElementById("skriftS3").style.fontSize="17px";
                 document.getElementById("skriftS4").style.fontSize="17px";
+                document.getElementById("skriftS5").style.fontSize="17px";
+                document.getElementById("skriftS6").style.fontSize="17px";
+                document.getElementById("skriftS7").style.fontSize="17px";
+
+
 
                 
             }
@@ -28,6 +33,11 @@ function dropdownFunction() {
                 document.getElementById("skriftS2").style.fontSize="23px";
                 document.getElementById("skriftS3").style.fontSize="23px";
                 document.getElementById("skriftS4").style.fontSize="23px";
+                document.getElementById("skriftS5").style.fontSize="23px";
+                document.getElementById("skriftS6").style.fontSize="23px";
+                document.getElementById("skriftS7").style.fontSize="23px";
+
+
 
                 
                 }
