@@ -102,12 +102,9 @@ td h1{
 	background-color: white;
 	padding: 0% 5% 30% 5%;
 	display: block;
-	margin: 0;
+	margin: auto;
 }
-.lastNedKnapper{
-    width: 50%;
-    
-}
+
 .tekstboks1{
 	background-color: black;
 	color: white;
@@ -303,7 +300,6 @@ td h1{
 /* On smaller screens, decrease text size */
 
 @media only screen and (max-width: 300px) {
-
 .forrige .neste .text {font-size: 11px}
 }
 
@@ -414,7 +410,7 @@ li{
 
 
 body{
-	background-color: black;
+	background-color: white;
 }
 
 p{
@@ -511,15 +507,17 @@ li{
 /* Ting til innhold */
 
 .overskrift{
-	font-size: 1000%;
+	font-size: 700%;
 	text-align: center;
 	background-color: white;
-	padding: 20% 5% 20% 5%;
+	padding: 15% 5% 20% 5%;
 	display: block;
-	margin: 0;
+	margin: auto;   
 }
 
-    
+.lastNed{
+	width: 50%;
+}
 
 
 .tekstboks1{
