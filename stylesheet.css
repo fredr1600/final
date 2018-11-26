@@ -500,6 +500,10 @@ nav span{
 	display: block;	
 }
 
+li{
+	display: block;
+	text-align: left;
+}
 
 /* Ting til innhold */
 
