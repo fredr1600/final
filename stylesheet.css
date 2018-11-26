@@ -262,9 +262,9 @@ td h1{
 
 .grid-containerFooter{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 31.6% 31.6% 31.6%;
     grid-template-rows: 100%; 
-    grid-gap: 20px;
+    grid-gap: 2.5%;
     
     padding-top: 5%;
     padding-bottom: 5%;
