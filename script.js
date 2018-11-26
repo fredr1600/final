@@ -103,11 +103,11 @@ function dropdownFunction() {
         function startUp(){
             noJs();
             byttBilde();
-            byttBilde2();
-            alert("alt lastet inn");
+            
+            alert("alt lastet inn2");
         }
 
-        window.onload = startUp;
+    window.onload = startUp;
         
 
     
