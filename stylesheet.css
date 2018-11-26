@@ -35,7 +35,7 @@ li a{
 }
 
 p{
-	font-size: 23px;
+	font-size: 17px;
     line-height: 1.5;
 }
 
@@ -192,7 +192,9 @@ td h1{
 .listeDiv{
     margin: auto;
 }
-
+.storSkrift{
+    font-size: 23px;
+}
 #skriftSs{
 	font-size: 23px;
 	padding-top: 6%;
@@ -416,7 +418,7 @@ body{
 }
 
 p{
-	font-size: 15px;
+	font-size: 17px;
 }
 
 html{
