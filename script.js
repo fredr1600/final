@@ -76,7 +76,7 @@ function dropdownFunction() {
             
             document.getElementById("jsAppBilde2").style.display="block";
             
-            if(n< bilder2.length -1){
+            if(n < bilder2.length -1){
                 n++;                
             }
             else{
@@ -99,14 +99,26 @@ function dropdownFunction() {
 
 
         }
+    function startUp(){
+        var side = window.location.pathname;
+        var side2 = side.substring(side.lastIndexOf('/') + 1);
+            if(side2 == "index.html" || side2 == "norsk_ss.html"){
+                byttBilde();
+                noJs();
+                
+}
+            
+            else {
+                byttBilde2();
+                noJs();  
+                    }
 
-        function startUp(){
-            noJs();
-            byttBilde();
-            byttBilde2();
-        }
-
-    window.onload = startUp;
+    }
+        
+            
+            
+window.onload = startUp;
+    
         
 
     
