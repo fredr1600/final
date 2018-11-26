@@ -223,6 +223,7 @@ td h1{
 
 #problemstilling{
     text-align: left;
+    margin-bottom: 15%;
 }
 
 
@@ -513,9 +514,18 @@ li{
 
 /* Ting til footer */
 
+
 .grid-containerFooter{
     display: block;
 }
+
+.grid-containerFooter > div{
+    text-align: center;
+    padding: 15px 15px;
+    font-size: 30px;
+    color: white;
+}
+
 
 
 .footer{
