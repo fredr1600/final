@@ -62,17 +62,25 @@ function dropdownFunction() {
             setTimeout("byttBilde()", timer);
         }
 
+        var n = 0;
+        var bilder2 = [];
+        var timer2 = 5000;
+        bilder2[0] = 'images/App_eng_1.png';
+        bilder2[1] = 'images/App_eng_2.png';
+        bilder2[2] = 'images/App_eng_3.png';
+        
         function byttBilde2(){
-            document.appBilde.src = bilder[i];
-            
-            if(i< bilder.length -1){
-                i--;                
+            document.appBilde2.src = bilder2[n];
+            document.getElementById("jsAppBilde2").style.display="block";
+            if(n< bilder2.length -1){
+                n++;                
             }
             else{
-                i=3;
+                n=0;
             }
-            
+            setTimeout("byttBilde2()", timer2);
         }
+        
 
         function noJs(){
             document.getElementById("noJsBilde1").style.display="none";
@@ -91,6 +99,7 @@ function dropdownFunction() {
         function startUp(){
             noJs();
             byttBilde();
+            byttBilde2();
         }
 
         window.onload = startUp;
