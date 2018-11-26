@@ -102,10 +102,11 @@ td h1{
 	background-color: white;
 	padding: 0% 5% 30% 5%;
 	display: block;
-	margin: 0;
-}
-.lastNedKnapper{
+	margin: auto;
     width: 50%;
+}
+.lastNed{
+   
     
 }
 .tekstboks1{
@@ -414,7 +415,7 @@ li{
 
 
 body{
-	background-color: black;
+	background-color: white;
 }
 
 p{
@@ -511,15 +512,14 @@ li{
 /* Ting til innhold */
 
 .overskrift{
-	font-size: 1000%;
+	font-size: 800%;
 	text-align: center;
 	background-color: white;
-	padding: 20% 5% 20% 5%;
+	padding: 15% 5% 20% 5%;
 	display: block;
-	margin: 0;
+	margin: auto;
+    width: 50%;
 }
-
-    
 
 
 .tekstboks1{
