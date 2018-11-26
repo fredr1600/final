@@ -61,7 +61,7 @@ function dropdownFunction() {
             }
             setTimeout("byttBilde()", timer);
         }
-        
+
 
         var n = 0;
         var bilder2 = [];
@@ -101,9 +101,11 @@ function dropdownFunction() {
             noJs();
             byttBilde();
             byttBilde2();
+            alert("alt lastet inn");
         }
 
         window.onload = startUp;
+        
 
     
 
