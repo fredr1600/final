@@ -100,7 +100,7 @@ td h1{
 	font-size: 1000%;	
 	text-align: center;
 	background-color: white;
-	padding: 0% 5% 30% 5%;
+	padding: 0% 5% 10% 5%;
 	display: block;
 	margin: auto;
 }
@@ -108,7 +108,7 @@ td h1{
 .tekstboks1{
 	background-color: black;
 	color: white;
-	padding: 20% 5% 30% 5%;
+	padding: 20% 5% 20% 5%;
 	display: block;
 	margin: 0;
 }
@@ -117,7 +117,7 @@ td h1{
     
 	background-color: #444d5b;
 	color: white;
-	padding: 20% 5% 30% 5%;
+	padding: 20% 5% 20% 5%;
 	display: block;
 	margin:0;
 }
@@ -126,7 +126,7 @@ td h1{
     
 	background-color: black;
 	color: white;
-    padding: 20% 5% 30% 5%;
+    padding: 20% 5% 20% 5%;
 	display: block;
 	margin:0;
 }
@@ -135,7 +135,7 @@ td h1{
     
 	background-color: #444d5b;
 	color: white;
-	padding: 20% 5% 30% 5%;
+	padding: 20% 5% 20% 5%;
 	display: block;
 	margin: 0;
 }
