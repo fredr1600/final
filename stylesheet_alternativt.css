@@ -499,13 +499,17 @@ nav span{
 /* Ting til innhold */
 
 .overskrift{
-	font-size: 1000%;
+	font-size: 700%;
+	width: 90%;
 	text-align: center;
 	background-color: black;
-	padding: 20% 5% 20% 5%;
+	padding: 15% 5% 20% 5%;
 	display: block;
-	margin: 0;
-    color: yellow;
+	margin: auto;   
+}
+
+.lastNed{
+	width: 50%;
 }
 
     

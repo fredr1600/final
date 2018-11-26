@@ -103,12 +103,8 @@ td h1{
 	padding: 0% 5% 30% 5%;
 	display: block;
 	margin: auto;
-    width: 50%;
 }
-.lastNed{
-   
-    
-}
+
 .tekstboks1{
 	background-color: black;
 	color: white;
@@ -304,7 +300,6 @@ td h1{
 /* On smaller screens, decrease text size */
 
 @media only screen and (max-width: 300px) {
-
 .forrige .neste .text {font-size: 11px}
 }
 
@@ -512,13 +507,16 @@ li{
 /* Ting til innhold */
 
 .overskrift{
-	font-size: 800%;
+	font-size: 700%;
 	text-align: center;
 	background-color: white;
 	padding: 15% 5% 20% 5%;
 	display: block;
-	margin: auto;
-    width: 50%;
+	margin: auto;   
+}
+
+.lastNed{
+	width: 50%;
 }
 
 
