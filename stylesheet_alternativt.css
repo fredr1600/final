@@ -98,10 +98,11 @@ td h1{
 .overskrift{
 	font-size: 1000%;	
 	text-align: center;
-	background-color: yellow;
+	background-color: black;
 	padding: 0% 5% 30% 5%;
 	display: block;
 	margin: 0;
+    color: yellow;
 }
 .lastNedKnapper{
     width: 50%;
@@ -410,7 +411,7 @@ body{
 }
 
 p{
-	font-size: 15px;
+	font-size: 17px;
 }
 
 html{
@@ -500,10 +501,11 @@ nav span{
 .overskrift{
 	font-size: 1000%;
 	text-align: center;
-	background-color: yellow;
+	background-color: black;
 	padding: 20% 5% 20% 5%;
 	display: block;
 	margin: 0;
+    color: yellow;
 }
 
     
