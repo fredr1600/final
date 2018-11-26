@@ -61,6 +61,7 @@ function dropdownFunction() {
             }
             setTimeout("byttBilde()", timer);
         }
+        
 
         var n = 0;
         var bilder2 = [];
@@ -104,7 +105,7 @@ function dropdownFunction() {
 
         window.onload = startUp;
 
-
+    
 
 
         
