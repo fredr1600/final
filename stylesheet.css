@@ -117,7 +117,7 @@ td h1{
     
 	background-color: #444d5b;
 	color: white;
-	padding: 20% 5% 20% 5%;
+	padding: 0% 5% 20% 5%;
 	display: block;
 	margin:0;
 }
@@ -139,9 +139,11 @@ td h1{
 	display: block;
 	margin: 0;
 }
+
 .appenBilde{
     width: 100%;
 }
+
 
 .grid-container {
     display: grid;
@@ -155,8 +157,7 @@ td h1{
     padding-right: 10%;
 }
 
-.grid-container > div {
-   
+.grid-container > div {  
     text-align: left;
     padding: 20px 20px;
     font-size: 30px;
@@ -484,6 +485,10 @@ li{
 
 .grid-container{
     display: hidden;
+}
+
+.breaks{
+	display: none;
 }
 
 .gif{
