@@ -34,7 +34,7 @@ li a{
 }
 
 p{
-	font-size: 23px;
+	font-size: 27px;
     line-height: 1.5;
 }
 
@@ -93,55 +93,51 @@ td h1{
     display: none;
 }
 
+
 /* Ting til innhold */
 
 .overskrift{
 	font-size: 1000%;	
 	text-align: center;
 	background-color: black;
-	padding: 0% 5% 30% 5%;
+	padding: 0% 5% 10% 5%;
 	display: block;
-	margin: 0;
+	margin: auto;
     color: yellow;
 }
-.lastNedKnapper{
-    width: 50%;
-    
-}
+
 .tekstboks1{
 	background-color: black;
 	color: yellow;
-	padding: 20% 5% 30% 5%;
+	padding: 20% 5% 20% 5%;
 	display: block;
 	margin: 0;
 }
 
 .tekstboks2{
-    
 	background-color: #444d5b;
 	color: yellow;
-	padding: 20% 5% 30% 5%;
-	display: block;
-	margin:0;
-}
-
-.tekstboks3{
-    
-	background-color: black;
-	color: yellow;
-    padding: 20% 5% 30% 5%;
-	display: block;
-	margin:0;
-}
-
-.tekstboks4{
-    
-	background-color: #444d5b;
-	color: yellow;
-	padding: 20% 5% 30% 5%;
+	padding: 0% 5% 20% 5%;
 	display: block;
 	margin: 0;
 }
+
+.tekstboks3{
+	background-color: black;
+	color: yellow;
+    padding: 20% 5% 20% 5%;
+	display: block;
+	margin: 0;
+}
+
+.tekstboks4{
+	background-color: #444d5b;
+	color: yellow;
+	padding: 20% 5% 20% 5%;
+	display: block;
+	margin: 0;
+}
+
 .appenBilde{
     width: 100%;
 }
@@ -158,8 +154,7 @@ td h1{
     padding-right: 10%;
 }
 
-.grid-container > div {
-   
+.grid-container > div {   
     text-align: left;
     padding: 20px 20px;
     font-size: 30px;
@@ -169,28 +164,35 @@ td h1{
 .gif{
     width: 70%;
     display: block;
-    margin-bottom: auto;
-    
+    margin-bottom: auto;  
     margin-right: auto;
     margin-top: 35.1px;
     border-radius: 10px;
 }
+
 .gifDiv{
     margin: auto;
 }
+
 .appBilder{
     margin: auto;
     display: block;
-   
 }
+
 .appDiv{
     margin: auto;
 }
+
 .someDiv{
     margin: auto;
 }
+
 .listeDiv{
     margin: auto;
+}
+
+.storSkrift{
+    font-size: 23px;
 }
 
 #skriftSs{
@@ -202,106 +204,46 @@ td h1{
     font-size: 17px;
     padding-top: 6%;
 }
+
 #skriftS2{
     font-size: 17px;
 }
+
 #skriftS3{
     font-size: 17px;
 }
+
 #skriftS4{
     font-size: 17px;
 }
+
 #skriftS5{
+    font-size: 17px; 
+}
+
+#skriftS6{
     font-size: 17px;
-    
+}
+
+#skriftS7{
+    font-size: 17px;
 }
 
 #problemstilling{
     text-align: left;
-}
-
-
-/* ting til slideshow */
-.forrige, .neste {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: yellow;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-.neste {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-.forrige:hover, .neste:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-.nummertxt {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active .dot:hover {
-  background-color: #717171;
-}
-
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-
-
-/* On smaller screens, decrease text size */
-
-@media only screen and (max-width: 300px) {
-
-.forrige .neste .text {font-size: 11px}
+    margin-bottom: 15%;
 }
 
 #jsAppBilde{
     display: none;
+}
+
+#jsAppBilde2{
+	display: none;
+}
+
+#noShow{
+    display= none;
 }
 
 .noJsBilder{
@@ -326,36 +268,31 @@ td h1{
 }
 
 
-
 /* Ting til footer */
 
 .grid-containerFooter{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 31.6% 31.6% 31.6%;
     grid-template-rows: 100%; 
-    grid-gap: 20px;
+    grid-gap: 2.5%;
     
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 5%;
-    padding-right: 5%;
-    
+    padding-right: 5%;   
 }
 
 .grid-containerFooter > div{
-    text-align: center;
-    
+    text-align: center; 
     font-size: 30px;
     color: yellow;
 }
 
 .footer{
-	
 	width: 100%;
 	color: yellow;
 	background-color: #2d2d2d;
     margin-bottom: 0;
-	
 }
 
 ul{
@@ -381,13 +318,11 @@ li{
 }
 
 .someInsta {
-	width: 34px;
-	
+	width: 34px;	
 }
 
 .someLinkedin {
 	width: 34px;
-	
 }
 
 .someTwitter {
@@ -395,16 +330,8 @@ li{
 }
 
 
-
-/*Ting til storTekst sider*/
-
-
-
-
 /*For mobil-enheter */
-
 @media (max-width: 1050px){
-
 
 body{
 	background-color: black;
@@ -495,15 +422,19 @@ nav span{
 	display: block;	
 }
 
+li{
+	display: block;
+	text-align: left;
+}
+
 
 /* Ting til innhold */
 
 .overskrift{
 	font-size: 700%;
-	width: 90%;
 	text-align: center;
 	background-color: black;
-	padding: 15% 5% 20% 5%;
+	padding: 10% 5% 15% 5%;
 	display: block;
 	margin: auto;   
 }
@@ -512,46 +443,45 @@ nav span{
 	width: 50%;
 }
 
-    
-
-
 .tekstboks1{
 	background-color: black;
 	color: yellow;
-	padding: 20% 5% 20% 5%;
+	padding: 10% 5% 15% 5%;
 	display: block;
 	margin: 0;
 	font-size: 15px;
 }
 
-
 .tekstboks2{
 	background-color: #444d5b;
 	color: yellow;
-	padding: 20% 5% 40% 5%;
+	padding: 10% 5% 15% 5%;
 	display: block;
-	margin:0;
+	margin: 0;
 }
 
 .tekstboks3{
 	background-color: black;
 	color: yellow;
-	padding: 20% 5% 20% 5%;
+	padding: 10% 5% 15% 5%;
 	display: block;
 	margin: 0;
 }
 
-
 .tekstboks4{
 	background-color: #444d5b;
 	color: yellow;
-	padding: 20% 5% 5% 5%;
+	padding: 10% 5% 15% 5%;
 	display: block;
 	margin: 0; 
 }
 
 .grid-container{
     display: hidden;
+}
+
+.breaks{
+	display: none;
 }
 
 .gif{
@@ -577,9 +507,14 @@ nav span{
     display: block;
 }
 
+.grid-containerFooter > div{
+    text-align: center;
+    padding: 15px 15px;
+    font-size: 30px;
+    color: white;
+}
 
 .footer{
-	
 	width: 100%;
 	color: yellow;
 	background-color: #2d2d2d;
@@ -587,9 +522,12 @@ nav span{
 	margin: 0% 0% 0% 0%;
 }
 
+.kildeliste, .designmanual{
+	text-align: center;
+}
+
 .someKnapper{
-    padding-top: 10px;
-    
+    padding-top: 10px;   
 }
     
 .someFB {
@@ -597,13 +535,11 @@ nav span{
 }
 
 .someInsta {
-	width: 34px;
-	
+	width: 34px;	
 }
 
 .someLinkedin {
-	width: 34px;
-	
+	width: 34px;	
 }
 
 .someTwitter {

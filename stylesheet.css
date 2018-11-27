@@ -1,17 +1,17 @@
-﻿
-/* For pc-skjermer */
+﻿/* For pc-skjermer */
 
 * {
     box-sizing: border-box;
 }
-html,body
-{
+
+html,body{
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
 }
+
 body{
 	background-color: white;
 	margin: 0;	
@@ -48,7 +48,7 @@ html{
 /* Ting til navbar */
 
 nav span {
-  display: none;
+  	display: none;
 }
 
 td{
@@ -79,7 +79,6 @@ td h1{
 	float: left;
 }
 
-}
 #storKnapp1{
 }
 
@@ -93,6 +92,7 @@ td h1{
 #storKnappJs2{
     display: none;
 }
+
 
 /* Ting til innhold */
 
@@ -113,26 +113,23 @@ td h1{
 	margin: 0;
 }
 
-.tekstboks2{
-    
+.tekstboks2{  
 	background-color: #444d5b;
 	color: white;
 	padding: 0% 5% 20% 5%;
 	display: block;
-	margin:0;
+	margin: 0;
 }
 
 .tekstboks3{
-    
 	background-color: black;
 	color: white;
     padding: 20% 5% 20% 5%;
 	display: block;
-	margin:0;
+	margin: 0;
 }
 
 .tekstboks4{
-    
 	background-color: #444d5b;
 	color: white;
 	padding: 20% 5% 20% 5%;
@@ -144,13 +141,12 @@ td h1{
     width: 100%;
 }
 
-
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: 100% 100%;
     grid-gap: 30px;
-    
+     
     padding-top: 10%;
     padding-bottom: 10%;
     padding-left: 10%;
@@ -168,31 +164,36 @@ td h1{
     width: 70%;
     display: block;
     margin-bottom: auto;
-    
     margin-right: auto;
     margin-top: 35.1px;
     border-radius: 10px;
 }
+
 .gifDiv{
     margin: auto;
 }
+
 .appBilder{
     margin: auto;
-    display: block;
-   
+    display: block;  
 }
+
 .appDiv{
     margin: auto;
 }
+
 .someDiv{
     margin: auto;
 }
+
 .listeDiv{
     margin: auto;
 }
+
 .storSkrift{
     font-size: 23px;
 }
+
 #skriftSs{
 	font-size: 23px;
 	padding-top: 6%;
@@ -202,21 +203,27 @@ td h1{
     font-size: 17px;
     padding-top: 6%;
 }
+
 #skriftS2{
     font-size: 17px;
 }
+
 #skriftS3{
     font-size: 17px;
 }
+
 #skriftS4{
     font-size: 17px;
 }
+
 #skriftS5{
     font-size: 17px;
 }
+
 #skriftS6{
     font-size: 17px;
 }
+
 #skriftS7{
     font-size: 17px;
 }
@@ -226,8 +233,6 @@ td h1{
     margin-bottom: 15%;
 }
 
-
-
 #jsAppBilde{
     display: none;
 }
@@ -235,9 +240,11 @@ td h1{
 #jsAppBilde2{
 	display: none;
 }
+
 #noShow{
     display= none;
 }
+
 .noJsBilder{
     margin-top: 30px;
     text-align: center;
@@ -260,7 +267,6 @@ td h1{
 }
 
 
-
 /* Ting til footer */
 
 .grid-containerFooter{
@@ -273,23 +279,19 @@ td h1{
     padding-bottom: 5%;
     padding-left: 5%;
     padding-right: 5%;
-    
 }
 
 .grid-containerFooter > div{
     text-align: center;
-    
     font-size: 30px;
     color: white;
 }
 
 .footer{
-	
 	width: 100%;
 	color: white;
 	background-color: #2d2d2d;
     margin-bottom: 0;
-	
 }
 
 ul{
@@ -316,12 +318,10 @@ li{
 
 .someInsta {
 	width: 34px;
-	
 }
 
 .someLinkedin {
 	width: 34px;
-	
 }
 
 .someTwitter {
@@ -329,16 +329,8 @@ li{
 }
 
 
-
-/*Ting til storTekst sider*/
-
-
-
-
 /*For mobil-enheter */
-
 @media (max-width: 1050px){
-
 
 body{
 	background-color: white;
@@ -397,7 +389,7 @@ nav span{
 }
 
 .dropbtn: hover, .dropbtn:focus{
-	background-color:#2980B9;
+	background-color: #2980B9;
 }
 
 .dropdown-content{
@@ -428,7 +420,6 @@ nav span{
 .dropdown:hover .dropdown-content {	
 	display: block;	
 }
-    
 
 li{
 	display: block;
@@ -451,7 +442,6 @@ li{
 	width: 50%;
 }
 
-
 .tekstboks1{
 	background-color: black;
 	color: white;
@@ -461,13 +451,12 @@ li{
 	font-size: 15px;
 }
 
-
 .tekstboks2{
 	background-color: #444d5b;
 	color: white;
 	padding: 10% 5% 15% 5%;
 	display: block;
-	margin:0;
+	margin: 0;
 }
 
 .tekstboks3{
@@ -477,7 +466,6 @@ li{
 	display: block;
 	margin: 0;
 }
-
 
 .tekstboks4{
 	background-color: #444d5b;
@@ -514,7 +502,6 @@ li{
 
 /* Ting til footer */
 
-
 .grid-containerFooter{
     display: block;
 }
@@ -526,10 +513,7 @@ li{
     color: white;
 }
 
-
-
 .footer{
-	
 	width: 100%;
 	color: white;
 	background-color: #2d2d2d;
@@ -541,10 +525,8 @@ li{
 	text-align: center;
 }
 
-
 .someKnapper{
     padding-top: 10px;
-    
 }
     
 .someFB {
@@ -552,13 +534,11 @@ li{
 }
 
 .someInsta {
-	width: 34px;
-	
+	width: 34px;	
 }
 
 .someLinkedin {
 	width: 34px;
-	
 }
 
 .someTwitter {
