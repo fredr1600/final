@@ -6,10 +6,7 @@
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
-
 	<script type="text/javascript" src="script.js"></script>
-
-	
 </head>
 
 <body>
@@ -19,29 +16,29 @@
 				<tbody>
 					<tr class="navbar">
 						<td>
-							<a href="#hjem"><h1>Home</h1></a>
+							<a href="#hjem" tabindex="1"><h1>Home</h1></a>
 						</td>
 						<td>
-							<a href="#problemet"><h1>Problem</h1></a>
+							<a href="#problemet" tabindex="2"><h1>Problem</h1></a>
 						</td>
 						<td>
-							<a href="#løsningen"><h1>Solution</h1></a>
+							<a href="#løsningen" tabindex="3"><h1>Solution</h1></a>
 						</td>
 						<td>
-							<a href="#appen"><h1>App</h1></a>
+							<a href="#appen" tabindex="4"><h1>App</h1></a>
 						</td>
 						<td>
-							<a href="#omoss"><h1>About</h1></a>
+							<a href="#omoss" tabindex="5"><h1>About</h1></a>
 						</td>
 						<td>
-							<a href="engelsk_ss.html"><img class="knapp" src="images/Style_white.png" alt="High Contrast"></a>
+							<a href="engelsk_ss.html" tabindex="6"><img class="knapp" src="images/Style_white.png" alt="High Contrast"></a>
 						</td>
 						<td>
-							<a href="index.html"><img class="knapp" src="images/NO_white.png" alt="Norsk"></a>
+							<a href="index.html" tabindex="7"><img class="knapp" src="images/NO_white.png" alt="Norsk"></a>
 						</td>
                         <td>
-                        	<img id="storKnappJs1" class="knapp" src="images/Text_size_white.png" onclick="fontFunctionStor()" alt="Text size">
-                            <a href="engelskStor.html" id="storKnapp1"><img class="knapp" src="images/Text_size_white.png"  alt="Text size"></a>
+                        	<img id="storKnappJs1" class="knapp"  tabindex="8" src="images/Text_size_white.png" onclick="fontFunctionStor()" onkeypress="fontFunctionStor()" alt="Text size">
+                            <a href="engelskStor.html" id="storKnapp1" tabindex="8"><img class="knapp" src="images/Text_size_white.png"  alt="Text size"></a>
                         </td>
 					</tr>
 				</tbody>
@@ -53,185 +50,155 @@
 					<tr class="navbar">
 						<td>
                             <span class="dropdown">
-  								<img class="dropbtn" src="images/Hamburger_white.png" alt="Menu" tabindex="2" onclick="dropdownFunction()">
+  								<img class="dropbtn" tabindex="1" src="images/Hamburger_white.png" alt="Menu" onclick="dropdownFunction()" onkeypress="dropdownFunction()">
   								<span id="ddContent" class="dropdown-content" >
-   								 	<a href="#hjem" tabindex="3" onclick="dropdownFunction()" class="dropdownTekst">Home</a>
-    								<a href="#problemet" tabindex="4" onclick="dropdownFunction()">Problem</a>
-    								<a href="#løsningen" tabindex="5" onclick="dropdownFunction()">Solution</a>
-   									<a href="#appen" tabindex="6" onclick="dropdownFunction()">The App</a>
-    								<a href="#omoss" tabindex="7" onclick="dropdownFunction()">About us</a>
+   								 	<ul>
+   								 		<li><a href="#hjem" tabindex="2" onclick="dropdownFunction()" class="dropdownTekst">Home</a></li>
+    									<li><a href="#problemet" tabindex="3" onclick="dropdownFunction()">Problem</a></li>
+    									<li><a href="#løsningen" tabindex="4" onclick="dropdownFunction()">Solution</a></li>
+   										<li><a href="#appen" tabindex="5" onclick="dropdownFunction()">The App</a></li>
+    									<li><a href="#omoss" tabindex="6" onclick="dropdownFunction()">About us</a></li>
+    									<li><a href="#exitmenu" tabindex="7" onclick="dropdownFunction()">Exit menu</a></li>
+									</ul>
 								</span>
   							</span>			
 						</td>
 						<td>
-							<a href="engelsk_ss.html"><img class="knapp" src="images/Style_white.png" alt="High Contrast"></a>
-							
+							<a href="engelsk_ss.html" tabindex="8"><img class="knapp" src="images/Style_white.png" alt="High Contrast"></a>
   						</td>
   						<td>
-							<a href="index.html"><img class="knapp" src="images/NO_white.png" alt="Norsk"></a>
+							<a href="index.html" tabindex="9"><img class="knapp" src="images/NO_white.png" alt="Norsk"></a>
 						</td>
                         <td>
-                            <img id="storKnappJs2" class="knapp" src="images/Text_size_white.png" alt="Text size" onclick="fontFunctionStor()">
-                            <a href="engelskStor.html" id="storKnapp2"><img class="knapp" src="images/Text_size_white.png" alt="Text size"></a>
+                            <img id="storKnappJs2" class="knapp" tabindex="10" src="images/Text_size_white.png" alt="Text size" onclick="fontFunctionStor()" onkeypress="fontFunctionStor()">
+                            <a href="engelskStor.html" id="storKnapp2" tabindex="11"><img class="knapp" src="images/Text_size_white.png" alt="Text size"></a>
                         </td>
   					</tr>
   				</tbody>
   			</table>
   		</span>	
 	</nav>
-		  <div class="overskrift">
-				<a name="hjem">
-					<h2>NéA</h2>
-                    
-                    <a href="https://www.apple.com/no/ios/app-store/"><img src="images/Download_AppStore_black_NO.png" class="lastNed" alt="Download from App Store"></a>
-                    <a href="https://play.google.com/store"><img src="images/Download_GooglePlay_black_NO.png" class="lastNed" alt="Download from Google Play"></a>
-                        </div>
-				</a>
-				
-				<a name="problemet">
-                    <div class="grid-container tekstboks1">
-                        <div class="gifDiv">
-                            <h3 id="problemstilling">
-                                <em>
-                                    How can we, through technology, limit the political polarization of our society? 
-                                </em>
-                            </h3>
-                            
-						  <img src="images/polarizationgif.gif" class="gif" alt="The polarization of the american public between 1994-2014">
-					       
-                        </div>
-                        <div >
-                            <p id="skriftS">
-                                
-						    Western, and especially US politics have become increasingly polarized in recent years (Azzimonti, 2013). A population grouped into different clusters, each with members with dissimilar attributes, is polarized (Esteban & Ray, 1994).The graph on the right shows how political opinions in the public have changed to the more extreme over the years (Doherty, 2014).
-						    <br><br><br>
-							You might wonder, what is so wrong with having different opinions? And no, there is absolutely nothing wrong with some dissension, on the contrary a politically diverse society is smart in the sense of getting a wider perspective on most cases. But the dangers of political polarization includes increased alienation from politics which leads to less political participation and trust in government(Layman, Carsey & Horowitz, 2006). These things can be threatening to our democracy, because a democracy builds on the participation of the people. Another danger to polarization is the increased likelihood of extremism, instability and even violence (Sunstein, 2002).
-							<br><br><br>
-							So how can we, through technology, limit the political polarization of our society?
-
-
-
-    
-                        </p>
-                            
-                            
-                           
-                             
-                            
-                        </div>
-                        </div>
-				</a>
-
-				<a name="løsningen">
-                    <div class="grid-container tekstboks2">
-                        <div>
-                            <h2>Solution</h2>
-					<p id="skriftS2">
-						
-				       Getting rid of political polarization is a daunting task that will, if even possible, take many years (Tomasky, 2016). Without going into any further detail, there are many theories to what it is that separates us so much (Layman et al., 2006). But what spoke to us is the connection between the traditional media and the political polarization of our society.
-				       <br><br>
-						One problem with today’s news environment, that has increased after Trump’s «fake news», is trust in the news. According to The Digital News Report of 2018 over half of the world population are concerned that the news they’re reading is fake. 51% say they trust the news they seek themselves and only 23% trust the news they come across in social media. Countries with polarized political situations and high use of social media stands out. In Spain as many as 69% are concerned about the fake news situation, and not far behind we find the United States with 64% (Newman, 2018).
-						<br><br>
-						Another problem is that people can decide exactly what type of news they want to read without having to relate to any other kinds of news content and thereby political information. It is not to sweep under the rug that most news sites have a political agenda or is at least influenced by politics in one way or the other. We also tend to seek political content that we want or agree on (Croft, 2016). Let’s take the far right news site Breitbart as an example. Responders in Reuters survey rated Breitbart to the least trusted news source with a score of 3.69 out of 10. At the same time, among people that use Breitbart on a regular basis, the score is 6.96 (Newman, 2018).
-
-					</p>
-                        </div>
-                        <div>
-                            <p id="skriftS3">
-                            	<br><br><br><br>
-
-                                In other words it’s a clear connection between political polarization and the polarization in the news. Better facts and more openness alone isn’t enough to make people trust the news, we need to introduce different opinions and perspectives on the cases (Newman, 2018). Our solution to the polarization problem is an app that does exactly that, it gathers different news sources in an environment where there are a lot of different opinions and perspectives. 
-								</p>
-						
-                                <h5><em>“To support bipartisanship, it is important to support media that actively try to reach out fairly to both sides of the aisle and promote understanding between different political ideologies.” (Tadepalli, 2017)</em>
-                                </h5>
-                            <p id="skriftS4">
-                       Our solution to the problem is focusing on the technological and social media aspect of news and not so much on the areas which do not have the same influence by smartphones. However, as we have said earlier, the problem is very much related to and perhaps created by the ever accelerating news output which we also can trace back to the beginning of smartphones (Prebensen, 2018). Our solution therefore cuts right into the core of the problem and tries to make change before the political polarization sets even deeper roots.  
-
-
-                       
-							
-                            </p>
-                    </div>
-                    
-                    </div>
-				</a>
-				
-				<a name="appen">
-                    
-                    <div class="grid-container tekstboks3">
-                        
-                        <div class="appenTekst"> 
-                            <h2>The App</h2>
-					<p id="skriftS5">
-						Néa is a new innovative app that collects and provides news from several different media outlets, making it easy for you to get a complete overview of the news situation. You can choose if you want to see content from all over the world or specific countries. Our goal is to present you with different views on both important community-related issues and smaller news on both sides of the political spectrum, so that you can make up your own opinion. The app is political independent and has an AI with specially developed algorithms that filter out fake news and puts the articles in the correct category. The AI also translate articles in different languages for you if you have chosen to see news from other countries. And if you want notifications when new articles are published in a specific case, you can hit a “follow” button.
-						<br><br>
-						On the front page you can explore news articles sorted by either time and subject, or you can choose from “Top Stories”, which are the stories that is most featured in the news media. You can also search for specific stories or articles. When you click on “Time”, you are presented with the most substantial news cases sorted chronologically, so that you can update yourself on the freches news or choose a specific time or period. When you click on “Subject” the content is divided into categories and sub-categories. For example politics, sports, culture etc. If you click on a specific case, for example Frigate, you can see all the articles written on the case sorted by time. If one of the articles looks interesting, you can click on it to see a brief summary and get the opportunity to click on “read more” to read the full story.
-
-					</p>
-                            
-                        </div>
-                        <div class="appDiv">
-                            
-                        <img name="appBilde2" width="200px" class="appBilder" alt="The App NeA" id="jsAppBilde2">
-                            <div class="noJsBilder">
-                            <img src="images/App_eng_1.png" id="noJsBilde1" width="150px" alt="Image of App front page">
-                            <img src="images/App_eng_2.png" id="noJsBilde2" width="150px" alt="Image of case timeline">
-                            <img src="images/App_eng_3.png" id="noJsBilde3" width="150px" alt="Image of case articles">
-                            </div>
-                    </div>
-                    </div>
-				</a>
-
-				<a name="omoss">
-                    <div class ="grid-container tekstboks4">
-                        <div>
-					   <p id="skriftS6">
-							Pictures of us:
-                        </p>
-                        </div>
-                        <div>
-                        <p id="skriftS7">
-                        	Elin Holde  Studentnummer: s333939
-							Jørgen Huseby  Studentnummer: s333932
-							Fredrik Randers  Studentnummer: s333919
-							Jostein Hauge  Studentnummer: s333943
-						</p>
-                        </div>
-                        </div>
-				</a>
+	
+	<div class="overskrift">
+		<a name="hjem" tabindex="12">
+			<h2>NéA</h2>
+            <a href="https://www.apple.com/no/ios/app-store/"tabindex="13"><img src="images/Download_AppStore_black_EN.png" class="lastNed" alt="Download from App Store"></a>
+            <a href="https://play.google.com/store" tabindex="14"><img src="images/Download_GooglePlay_black_EN.png" class="lastNed" alt="Download from Google Play"></a>       
+		</a>
+	</div>
 			
-		
+	<a name="problemet" tabindex="15">
+        <div class="grid-container tekstboks1">
+            <div class="gifDiv">
+                <h3 id="problemstilling">
+                    <em>
+                        How can we, through technology, limit the political polarization of our society? 
+                    </em>
+                </h3>
+                <img src="images/polarizationgif.gif" class="gif" alt="The polarization of the american public between 1994-2014">
+			</div>
+            <div>
+            	<p id="skriftS">        
+					Western, and especially US politics have become increasingly polarized in recent years (Azzimonti, 2013). A population grouped into different clusters, each with members with dissimilar attributes, is polarized (Esteban & Ray, 1994).The graph on the right shows how political opinions in the public have changed to the more extreme over the years (Doherty, 2014).
+					<br><br><br>
+					You might wonder, what is so wrong with having different opinions? And no, there is absolutely nothing wrong with some dissension, on the contrary a politically diverse society is smart in the sense of getting a wider perspective on most cases. But the dangers of political polarization includes increased alienation from politics which leads to less political participation and trust in government(Layman, Carsey & Horowitz, 2006). These things can be threatening to our democracy, because a democracy builds on the participation of the people. Another danger to polarization is the increased likelihood of extremism, instability and even violence (Sunstein, 2002).
+					<br><br><br>
+					So how can we, through technology, limit the political polarization of our society?
+				</p>      
+            </div>
+        </div>
+	</a>
+
+	<a name="løsningen" tabindex="16">
+        <div class="grid-container tekstboks2">
+            <div>
+                <h2>Solution</h2>
+				<p id="skriftS2">					
+			       	Getting rid of political polarization is a daunting task that will, if even possible, take many years (Tomasky, 2016). Without going into any further detail, there are many theories to what it is that separates us so much (Layman et al., 2006). But what spoke to us is the connection between the traditional media and the political polarization of our society.
+			       	<br><br><br><br>
+					One problem with today’s news environment, that has increased after Trump’s «fake news», is trust in the news. According to The Digital News Report of 2018 over half of the world population are concerned that the news they’re reading is fake. 51% say they trust the news they seek themselves and only 23% trust the news they come across in social media. Countries with polarized political situations and high use of social media stands out. In Spain as many as 69% are concerned about the fake news situation, and not far behind we find the United States with 64% (Newman, 2018).
+					<br><br><br><br>
+					Another problem is that people can decide exactly what type of news they want to read without having to relate to any other kinds of news content and thereby political information. It is not to sweep under the rug that most news sites have a political agenda or is at least influenced by politics in one way or the other. We also tend to seek political content that we want or agree on (Croft, 2016). Let’s take the far right news site Breitbart as an example. Responders in Reuters survey rated Breitbart to the least trusted news source with a score of 3.69 out of 10. At the same time, among people that use Breitbart on a regular basis, the score is 6.96 (Newman, 2018).
+				</p>
+            </div>
+	        <div>
+    	        <p id="skriftS3">
+                	<br class="breaks"><br class="breaks"><br class="breaks"><br class="breaks">
+                    In other words it’s a clear connection between political polarization and the polarization in the news. Better facts and more openness alone isn’t enough to make people trust the news, we need to introduce different opinions and perspectives on the cases (Newman, 2018). Our solution to the polarization problem is an app that does exactly that, it gathers different news sources in an environment where there are a lot of different opinions and perspectives. 
+				</p>	
+                <h5><em><br>
+                	“To support bipartisanship, it is important to support media that actively try to reach out fairly to both sides of the aisle and promote understanding between different political ideologies.” (Tadepalli, 2017)
+                </em></h5><br>
+                <p id="skriftS4">
+                   	Our solution to the problem is focusing on the technological and social media aspect of news and not so much on the areas which do not have the same influence by smartphones. However, as we have said earlier, the problem is very much related to and perhaps created by the ever accelerating news output which we also can trace back to the beginning of smartphones (Prebensen, 2018). Our solution therefore cuts right into the core of the problem and tries to make change before the political polarization sets even deeper roots.  
+				</p>
+            </div>
+        </div>
+	</a>
+	
+	<a name="appen" tabindex="17">        
+        <div class="grid-container tekstboks3">        
+            <div class="appenTekst"> 
+                <h2>The App</h2>
+				<p id="skriftS5">
+					Néa is a new innovative app that collects and provides news from several different media outlets, making it easy for you to get a complete overview of the news situation. You can choose if you want to see content from all over the world or specific countries. Our goal is to present you with different views on both important community-related issues and smaller news on both sides of the political spectrum, so that you can make up your own opinion. The app is political independent and has an AI with specially developed algorithms that filter out fake news and puts the articles in the correct category. The AI also translate articles in different languages for you if you have chosen to see news from other countries. And if you want notifications when new articles are published in a specific case, you can hit a “follow” button.
+					<br><br><br><br>
+					On the front page you can explore news articles sorted by either time and subject, or you can choose from “Top Stories”, which are the stories that is most featured in the news media. You can also search for specific stories or articles. When you click on “Time”, you are presented with the most substantial news cases sorted chronologically, so that you can update yourself on the freches news or choose a specific time or period. When you click on “Subject” the content is divided into categories and sub-categories. For example politics, sports, culture etc. If you click on a specific case, for example Frigate, you can see all the articles written on the case sorted by time. If one of the articles looks interesting, you can click on it to see a brief summary and get the opportunity to click on “read more” to read the full story.
+				</p>    
+            </div>
+            <div class="appDiv">            
+                <img name="appBilde2" width="200px" class="appBilder" alt="The App NeA" id="jsAppBilde2">
+                <div class="noJsBilder">
+                    <img src="images/App_eng_1.png" id="noJsBilde1" width="150px" alt="Image of App front page">
+                    <img src="images/App_eng_2.png" id="noJsBilde2" width="150px" alt="Image of case timeline">
+                    <img src="images/App_eng_3.png" id="noJsBilde3" width="150px" alt="Image of case articles">
+                </div>
+            </div>
+        </div>
+	</a>
+
+	<a name="omoss" tabindex="18">
+        <div class ="grid-container tekstboks4">
+            <div>
+				<p id="skriftS6">
+					Pictures of us:
+				</p>
+            </div>
+            <div>
+                <p id="skriftS7">
+                	Elin Holde  Studentnummer: s333939
+					Jørgen Huseby  Studentnummer: s333932
+					Fredrik Randers  Studentnummer: s333919
+					Jostein Hauge  Studentnummer: s333943
+				</p>
+            </div>
+        </div>
+	</a>
 </body>
 
 <footer class="grid-containerFooter footer">
-	
-			<div class="listeDiv">
-					<ul>
-						<li><a ref="Kildeliste.pdf" target="_blank">Sources</a></li>
-						<br>
-						<li><a href="Design_manual.pdf" target="_blank">Design Manual</a></li>
-					</ul>
-                    
-                    
-				</div>
-			<div class="someDiv"> <div class="someKnapper">
-                    <a href="https://www.facebook.com"><img class="someFB" src="images/Facebook_white.png" alt="Facebook"></a>
-						<a href="https://www.instagram.com"><img class="someInsta" src="images/Insta_white.png" alt="Instagram"></a>
-						<a href="https://www.linkedin.com"><img class="someLinkedin" src="images/Linkedin_white.png" alt="Linkedin"></a>
-						<a href="https://www.twitter.com"><img class="someTwitter" src="images/Twitter_white.png" alt="Twitter"></a>
-                    </div>
-                </div>
-				
-				
-            <div>
-					<p>
-						Copyright © 2018<br> Elin Holde, Fredrik Thorsen,<br> Jørgen Huseby, Jostein Hauge.<br> All rights reserved.
-					</p>
-				</div>
-                
-				
-					
-    
-    </footer>
+	<div class="listeDiv">
+		<ul>
+			<li class="kildeliste"><a tabindex="19" href="Kildeliste.pdf" target="_blank">Reference List</a></li>
+			<br class="breaks">
+			<li class="designmanual"><a tabindex="20" href="Design_manual.pdf" target="_blank">Design Manual</a></li>
+		</ul>            
+    </div>
+	<div class="someDiv"> 
+		<div class="someKnapper">
+            <a href="https://www.facebook.com" tabindex="21"><img class="someFB" src="images/Facebook_white.png" alt="Facebook"></a>
+			<a href="https://www.instagram.com" tabindex="22"><img class="someInsta" src="images/Insta_white.png" alt="Instagram"></a>
+			<a href="https://www.linkedin.com" tabindex="23"><img class="someLinkedin" src="images/Linkedin_white.png" alt="Linkedin"></a>
+			<a href="https://www.twitter.com" tabindex="24"><img class="someTwitter" src="images/Twitter_white.png" alt="Twitter"></a>
+        </div>
+    </div>
+    <div>
+		<p>
+			Copyright © 2018<br> 
+			Elin Holde, Fredrik Thorsen,<br> 
+			Jørgen Huseby, Jostein Hauge.<br> 
+			All rights reserved.
+		</p>
+	</div>
+</footer>
 </html>
