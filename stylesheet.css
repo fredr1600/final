@@ -222,7 +222,7 @@ td h1{
 
 #skriftS6{
     font-size: 17px;
-    text-align: center;
+    text-align: center;    
 }
 
 #skriftS7{
@@ -274,6 +274,12 @@ td h1{
 	display: block;
 	margin: 0;
 	background-color: black;
+}
+#portrettBilder{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+                
 }
 
 
@@ -508,7 +514,12 @@ li{
     margin-right: auto;
     margin-left: auto;
 }
+#portrettBilder{
+    margin-left: auto;
+    margin-right: auto;
 
+                
+}
 
 /* Ting til footer */
 

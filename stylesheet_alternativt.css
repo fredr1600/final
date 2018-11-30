@@ -281,7 +281,12 @@ td h1{
 	margin: 0;
 	background-color: black;
 }
-
+#portrettBilder{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+                
+}
 
 /* Ting til footer */
 
@@ -518,7 +523,12 @@ li{
     margin-right: auto;
     margin-left: auto;
 }
-
+#portrettBilder{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+                
+}
 
 /* Ting til footer */
 
