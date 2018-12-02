@@ -575,3 +575,56 @@ li{
 	width: 34px;
 }
 }
+
+
+/* For fix av navbar på mobiler */
+@media (max-width: 700px){
+
+.dropdown-content{
+	display: none;
+	margin-top: 3.4%;
+	position: fixed;
+	width: 105%;
+	margin-left: -4.8%;	
+	z-index: 1;
+	background-color: #2d2d2d;
+	text-align: left;   
+}
+}
+
+@media (max-width: 550px){
+
+.dropdown-content{
+	display: none;
+	margin-top: 3.5%;
+	position: fixed;
+	width: 105%;
+	margin-left: -4.8%;	
+	z-index: 1;
+	background-color: #2d2d2d;
+	text-align: left;   
+}
+}
+
+@media (max-width: 375px){
+
+.dropdown-content{
+	display: none;
+	margin-top: 3.6%;
+	position: fixed;
+	width: 105%;
+	margin-left: -4.8%;	
+	z-index: 1;
+	background-color: #2d2d2d;
+	text-align: left;   
+}
+
+.overskrift{
+	font-size: 600%;
+	text-align: center;
+	background-color: black;
+	padding: 10% 5% 15% 5%;
+	display: block;
+	margin: auto;   
+}
+}
